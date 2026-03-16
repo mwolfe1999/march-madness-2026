@@ -1,0 +1,73 @@
+{
+  "source": "ESPN/BetMGM, CBS Sports, OutKick, VegasInsider, Covers (compiled 2026-03-16)",
+  "firstRound": {
+    "East": [
+      { "seed1": 1, "team1": "Duke", "seed2": 16, "team2": "Siena", "spread": -27.5, "moneyline1": -20000, "moneyline2": 3500, "total": 136.5 },
+      { "seed1": 8, "team1": "Ohio State", "seed2": 9, "team2": "TCU", "spread": -3.5, "moneyline1": -218, "moneyline2": 180, "total": 147.5 },
+      { "seed1": 5, "team1": "St. John's", "seed2": 12, "team2": "Northern Iowa", "spread": -9.5, "moneyline1": -425, "moneyline2": 330, "total": 130.5 },
+      { "seed1": 4, "team1": "Kansas", "seed2": 13, "team2": "Cal Baptist", "spread": -12.5, "moneyline1": -535, "moneyline2": 400, "total": 134.5 },
+      { "seed1": 6, "team1": "Louisville", "seed2": 11, "team2": "South Florida", "spread": -7.5, "moneyline1": -345, "moneyline2": 275, "total": 163.5 },
+      { "seed1": 3, "team1": "Michigan State", "seed2": 14, "team2": "North Dakota State", "spread": -15.5, "moneyline1": -1600, "moneyline2": 950, "total": 143.5 },
+      { "seed1": 7, "team1": "UCLA", "seed2": 10, "team2": "UCF", "spread": -6.5, "moneyline1": -278, "moneyline2": 225, "total": 154.5 },
+      { "seed1": 2, "team1": "UConn", "seed2": 15, "team2": "Furman", "spread": -18.5, "moneyline1": -8000, "moneyline2": 2200, "total": 136.5 }
+    ],
+    "West": [
+      { "seed1": 1, "team1": "Arizona", "seed2": 16, "team2": "LIU", "spread": -29.5, "moneyline1": -100000, "moneyline2": 5000, "total": 150.5 },
+      { "seed1": 8, "team1": "Villanova", "seed2": 9, "team2": "Utah State", "spread": 1.5, "moneyline1": 114, "moneyline2": -135, "total": 147.5, "note": "Utah State favored" },
+      { "seed1": 5, "team1": "Wisconsin", "seed2": 12, "team2": "High Point", "spread": -12.5, "moneyline1": -950, "moneyline2": 625, "total": 166.5 },
+      { "seed1": 4, "team1": "Arkansas", "seed2": 13, "team2": "Hawaii", "spread": -15.5, "moneyline1": -2400, "moneyline2": 1200, "total": 161.5 },
+      { "seed1": 6, "team1": "BYU", "seed2": 11, "team2": "TBD_West11", "spread": null, "moneyline1": null, "moneyline2": null, "total": null, "note": "Awaiting First Four" },
+      { "seed1": 3, "team1": "Gonzaga", "seed2": 14, "team2": "Kennesaw State", "spread": -18.5, "moneyline1": -8000, "moneyline2": 2200, "total": 157.5 },
+      { "seed1": 7, "team1": "Miami FL", "seed2": 10, "team2": "Missouri", "spread": -2.5, "moneyline1": -155, "moneyline2": 130, "total": 150.5 },
+      { "seed1": 2, "team1": "Purdue", "seed2": 15, "team2": "Queens", "spread": -23.5, "moneyline1": -8000, "moneyline2": 2200, "total": 165.5 }
+    ],
+    "South": [
+      { "seed1": 1, "team1": "Florida", "seed2": 16, "team2": "TBD_South16", "spread": null, "moneyline1": null, "moneyline2": null, "total": null, "note": "Awaiting First Four" },
+      { "seed1": 8, "team1": "Clemson", "seed2": 9, "team2": "Iowa", "spread": 1.5, "moneyline1": 120, "moneyline2": -142, "total": 130.5, "note": "Iowa favored" },
+      { "seed1": 5, "team1": "Vanderbilt", "seed2": 12, "team2": "McNeese", "spread": -10.5, "moneyline1": -550, "moneyline2": 410, "total": 150.5 },
+      { "seed1": 4, "team1": "Nebraska", "seed2": 13, "team2": "Troy", "spread": -13.5, "moneyline1": -1450, "moneyline2": 850, "total": 134.5 },
+      { "seed1": 6, "team1": "North Carolina", "seed2": 11, "team2": "VCU", "spread": -2.5, "moneyline1": -142, "moneyline2": 120, "total": 155.5 },
+      { "seed1": 3, "team1": "Illinois", "seed2": 14, "team2": "Penn", "spread": -21.5, "moneyline1": -20000, "moneyline2": 3500, "total": 149.5 },
+      { "seed1": 7, "team1": "Saint Mary's", "seed2": 10, "team2": "Texas A&M", "spread": -2.5, "moneyline1": -175, "moneyline2": 145, "total": 148.5 },
+      { "seed1": 2, "team1": "Houston", "seed2": 15, "team2": "Idaho", "spread": -21.5, "moneyline1": -10000, "moneyline2": 3000, "total": 133.5 }
+    ],
+    "Midwest": [
+      { "seed1": 1, "team1": "Michigan", "seed2": 16, "team2": "TBD_Midwest16", "spread": null, "moneyline1": null, "moneyline2": null, "total": null, "note": "Awaiting First Four" },
+      { "seed1": 8, "team1": "Georgia", "seed2": 9, "team2": "Saint Louis", "spread": -1.5, "moneyline1": -148, "moneyline2": 124, "total": 171.5 },
+      { "seed1": 5, "team1": "Texas Tech", "seed2": 12, "team2": "Akron", "spread": -8.5, "moneyline1": -410, "moneyline2": 320, "total": 155.5 },
+      { "seed1": 4, "team1": "Alabama", "seed2": 13, "team2": "Hofstra", "spread": -12.5, "moneyline1": -675, "moneyline2": 490, "total": 162.5 },
+      { "seed1": 6, "team1": "Tennessee", "seed2": 11, "team2": "TBD_Midwest11", "spread": null, "moneyline1": null, "moneyline2": null, "total": null, "note": "Awaiting First Four" },
+      { "seed1": 3, "team1": "Virginia", "seed2": 14, "team2": "Wright State", "spread": -17.5, "moneyline1": -3200, "moneyline2": 1400, "total": 144.5 },
+      { "seed1": 7, "team1": "Kentucky", "seed2": 10, "team2": "Santa Clara", "spread": -2.5, "moneyline1": -162, "moneyline2": 136, "total": 161.5 },
+      { "seed1": 2, "team1": "Iowa State", "seed2": 15, "team2": "Tennessee State", "spread": -23.5, "moneyline1": -6500, "moneyline2": 2000, "total": 148.5 }
+    ]
+  },
+  "championshipFutures": {
+    "Duke": "+340",
+    "Michigan": "+370",
+    "Arizona": "+390",
+    "Florida": "+750",
+    "Houston": "+1300",
+    "Iowa State": "+1800",
+    "Illinois": "+2200",
+    "Purdue": "+2800",
+    "UConn": "+3000",
+    "Michigan State": "+5500",
+    "Kansas": "+6000",
+    "Arkansas": "+6000",
+    "Gonzaga": "+6000",
+    "St. John's": "+7500",
+    "Virginia": "+7500",
+    "Vanderbilt": "+7500",
+    "Wisconsin": "+10000",
+    "Nebraska": "+11000",
+    "Tennessee": "+13000",
+    "Texas Tech": "+13000",
+    "Louisville": "+15000",
+    "Alabama": "+18000",
+    "UCLA": "+18000",
+    "Kentucky": "+25000",
+    "North Carolina": "+25000",
+    "Ohio State": "+25000"
+  }
+}

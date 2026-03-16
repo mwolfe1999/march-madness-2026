@@ -1,0 +1,53 @@
+{
+  "source": "CBS Sports, Fox Sports, SI, ESPN, SportsBettingDime (14 experts total)",
+  "scrapedDate": "2026-03-16",
+  "experts": [
+    { "name": "Bruce Pearl", "outlet": "CBS", "finalFour": ["St. John's", "Florida", "Arizona", "Michigan"], "champion": "Arizona" },
+    { "name": "Clark Kellogg", "outlet": "CBS", "finalFour": ["Duke", "Florida", "Purdue", "Virginia"], "champion": "Purdue" },
+    { "name": "Seth Davis", "outlet": "CBS", "finalFour": ["Duke", "Houston", "Arizona", "Michigan"], "champion": "Arizona" },
+    { "name": "Michael Cohen", "outlet": "Fox Sports", "finalFour": ["Duke", "Houston", "Arizona", "Michigan"], "champion": "Duke" },
+    { "name": "Casey Jacobsen", "outlet": "Fox Sports", "finalFour": ["Duke", "Houston", "Arizona", "Michigan"], "champion": "Michigan" },
+    { "name": "Pat Forde", "outlet": "SI", "finalFour": ["Duke", "Houston", "Arizona", "Michigan"], "champion": "Arizona" },
+    { "name": "Bryan Fischer", "outlet": "SI", "finalFour": ["Duke", "Illinois", "Arizona", "Virginia"], "champion": "Arizona" },
+    { "name": "Kevin Sweeney", "outlet": "SI", "finalFour": ["Duke", "Houston", "Arkansas", "Michigan"], "champion": "Duke" },
+    { "name": "Jay Bilas", "outlet": "ESPN", "finalFour": ["Michigan State", "Illinois", "Purdue", "Duke"], "champion": "Duke" },
+    { "name": "Jeff Borzello", "outlet": "ESPN", "finalFour": ["Florida", "UConn", "Arizona", "Michigan"], "champion": "Arizona" },
+    { "name": "Sascha Paruk", "outlet": "SportsBettingDime", "finalFour": ["Kansas", "Houston", "Arkansas", "Iowa State"], "champion": "Houston" },
+    { "name": "Zach Reger", "outlet": "SportsBettingDime", "finalFour": ["Michigan State", "Houston", "Arizona", "Iowa State"], "champion": "Houston" },
+    { "name": "Paul Costanzo", "outlet": "SportsBettingDime", "finalFour": ["Duke", "Houston", "Purdue", "Iowa State"], "champion": "Duke" },
+    { "name": "Ian Jones", "outlet": "SportsBettingDime", "finalFour": ["Duke", "Houston", "Arizona", "Michigan"], "champion": "Duke" }
+  ],
+  "aggregated": {
+    "championPicks": {
+      "Arizona": 5,
+      "Duke": 5,
+      "Houston": 2,
+      "Michigan": 1,
+      "Purdue": 1
+    },
+    "finalFourAppearances": {
+      "Duke": 12,
+      "Arizona": 10,
+      "Houston": 9,
+      "Michigan": 8,
+      "Florida": 3,
+      "Purdue": 3,
+      "Iowa State": 3,
+      "Virginia": 2,
+      "Illinois": 2,
+      "Michigan State": 2,
+      "Arkansas": 2,
+      "St. John's": 1,
+      "Kansas": 1,
+      "UConn": 1
+    },
+    "totalExperts": 14
+  },
+  "models": {
+    "nateSilver": { "favorite": "Arizona", "note": "best combination of strength, health, and draw" },
+    "yahoo10kSims": {
+      "finalFourProb": { "Duke": 0.384, "Arizona": 0.311, "Michigan": 0.297, "Houston": 0.268 },
+      "mostLikelyChampion": "Duke"
+    }
+  }
+}

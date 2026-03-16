@@ -1,0 +1,28 @@
+{
+  "source": "bracketresearch.com, 1985-2025 (40 tournaments)",
+  "at_least_one_12over5_rate": 0.85,
+  "at_least_one_13over4_rate": 0.70,
+  "at_least_one_11over6_rate": 0.86,
+  "at_least_one_10over7_rate": 0.86,
+  "num_1seeds_in_final_four_distribution": {
+    "0": 0.125,
+    "1": 0.350,
+    "2": 0.350,
+    "3": 0.125,
+    "4": 0.050
+  },
+  "avg_total_upsets_r64": 8.3,
+  "avg_total_upsets_r64_excluding_8v9": 6.2,
+  "double_digit_seed_final_four_rate": 0.15,
+  "champions_that_were_1_seeds_pct": 0.65,
+  "seed_matchup_win_rates": {
+    "1v16": 0.9875,
+    "2v15": 0.931,
+    "3v14": 0.856,
+    "4v13": 0.794,
+    "5v12": 0.644,
+    "6v11": 0.613,
+    "7v10": 0.613,
+    "8v9": 0.481
+  }
+}

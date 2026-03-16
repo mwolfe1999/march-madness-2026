@@ -1,0 +1,68 @@
+{
+  "year": 2026,
+  "selectionSunday": "2026-03-15",
+  "firstFourDates": ["2026-03-17", "2026-03-18"],
+  "firstRoundDates": ["2026-03-19", "2026-03-20"],
+  "finalFourDate": "2026-04-04",
+  "championshipDate": "2026-04-06",
+  "firstFour": [
+    { "team1": "UMBC", "seed1": 16, "team2": "Howard", "seed2": 16, "region": "Midwest", "winner": null },
+    { "team1": "Texas", "seed1": 11, "team2": "NC State", "seed2": 11, "region": "West", "winner": null },
+    { "team1": "Prairie View A&M", "seed1": 16, "team2": "Lehigh", "seed2": 16, "region": "South", "winner": null },
+    { "team1": "Miami OH", "seed1": 11, "team2": "SMU", "seed2": 11, "region": "Midwest", "winner": null }
+  ],
+  "regions": {
+    "East": {
+      "topSeed": "Duke",
+      "matchups": [
+        { "seed1": 1, "team1": "Duke", "record1": "32-2", "seed2": 16, "team2": "Siena", "record2": "23-11" },
+        { "seed1": 8, "team1": "Ohio State", "record1": "21-12", "seed2": 9, "team2": "TCU", "record2": "22-11" },
+        { "seed1": 5, "team1": "St. John's", "record1": "28-6", "seed2": 12, "team2": "Northern Iowa", "record2": "23-12" },
+        { "seed1": 4, "team1": "Kansas", "record1": "23-10", "seed2": 13, "team2": "Cal Baptist", "record2": "25-8" },
+        { "seed1": 6, "team1": "Louisville", "record1": "23-10", "seed2": 11, "team2": "South Florida", "record2": "25-8" },
+        { "seed1": 3, "team1": "Michigan State", "record1": "25-7", "seed2": 14, "team2": "North Dakota State", "record2": "27-7" },
+        { "seed1": 7, "team1": "UCLA", "record1": "23-11", "seed2": 10, "team2": "UCF", "record2": "21-11" },
+        { "seed1": 2, "team1": "UConn", "record1": "29-5", "seed2": 15, "team2": "Furman", "record2": "22-12" }
+      ]
+    },
+    "West": {
+      "topSeed": "Arizona",
+      "matchups": [
+        { "seed1": 1, "team1": "Arizona", "record1": "32-2", "seed2": 16, "team2": "LIU", "record2": "24-10" },
+        { "seed1": 8, "team1": "Villanova", "record1": "24-8", "seed2": 9, "team2": "Utah State", "record2": "28-6" },
+        { "seed1": 5, "team1": "Wisconsin", "record1": "24-10", "seed2": 12, "team2": "High Point", "record2": "30-4" },
+        { "seed1": 4, "team1": "Arkansas", "record1": "26-8", "seed2": 13, "team2": "Hawaii", "record2": "24-8" },
+        { "seed1": 6, "team1": "BYU", "record1": "23-11", "seed2": 11, "team2": "TBD_West11", "record2": "" },
+        { "seed1": 3, "team1": "Gonzaga", "record1": "30-3", "seed2": 14, "team2": "Kennesaw State", "record2": "21-13" },
+        { "seed1": 7, "team1": "Miami FL", "record1": "25-8", "seed2": 10, "team2": "Missouri", "record2": "20-12" },
+        { "seed1": 2, "team1": "Purdue", "record1": "27-8", "seed2": 15, "team2": "Queens", "record2": "21-13" }
+      ]
+    },
+    "South": {
+      "topSeed": "Florida",
+      "matchups": [
+        { "seed1": 1, "team1": "Florida", "record1": "26-7", "seed2": 16, "team2": "TBD_South16", "record2": "" },
+        { "seed1": 8, "team1": "Clemson", "record1": "24-10", "seed2": 9, "team2": "Iowa", "record2": "21-12" },
+        { "seed1": 5, "team1": "Vanderbilt", "record1": "26-8", "seed2": 12, "team2": "McNeese", "record2": "28-5" },
+        { "seed1": 4, "team1": "Nebraska", "record1": "26-6", "seed2": 13, "team2": "Troy", "record2": "22-11" },
+        { "seed1": 6, "team1": "North Carolina", "record1": "24-8", "seed2": 11, "team2": "VCU", "record2": "27-7" },
+        { "seed1": 3, "team1": "Illinois", "record1": "24-8", "seed2": 14, "team2": "Penn", "record2": "18-11" },
+        { "seed1": 7, "team1": "Saint Mary's", "record1": "27-5", "seed2": 10, "team2": "Texas A&M", "record2": "21-11" },
+        { "seed1": 2, "team1": "Houston", "record1": "28-6", "seed2": 15, "team2": "Idaho", "record2": "21-14" }
+      ]
+    },
+    "Midwest": {
+      "topSeed": "Michigan",
+      "matchups": [
+        { "seed1": 1, "team1": "Michigan", "record1": "31-3", "seed2": 16, "team2": "TBD_Midwest16", "record2": "" },
+        { "seed1": 8, "team1": "Georgia", "record1": "22-10", "seed2": 9, "team2": "Saint Louis", "record2": "28-5" },
+        { "seed1": 5, "team1": "Texas Tech", "record1": "22-10", "seed2": 12, "team2": "Akron", "record2": "29-5" },
+        { "seed1": 4, "team1": "Alabama", "record1": "23-9", "seed2": 13, "team2": "Hofstra", "record2": "24-10" },
+        { "seed1": 6, "team1": "Tennessee", "record1": "22-11", "seed2": 11, "team2": "TBD_Midwest11", "record2": "" },
+        { "seed1": 3, "team1": "Virginia", "record1": "29-5", "seed2": 14, "team2": "Wright State", "record2": "23-11" },
+        { "seed1": 7, "team1": "Kentucky", "record1": "21-13", "seed2": 10, "team2": "Santa Clara", "record2": "26-8" },
+        { "seed1": 2, "team1": "Iowa State", "record1": "27-7", "seed2": 15, "team2": "Tennessee State", "record2": "23-9" }
+      ]
+    }
+  }
+}

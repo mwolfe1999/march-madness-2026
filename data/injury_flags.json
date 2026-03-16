@@ -1,0 +1,104 @@
+{
+  "source": "RotoWire, SportsBettingDime, SI, ESPN, CBS Sports (compiled 2026-03-16)",
+  "injuries": {
+    "Duke": [
+      { "player": "Caleb Foster", "position": "G", "injury": "Fractured right foot (post-surgery)", "status": "OUT", "isStarter": true, "ppg": 8.5, "impact": "high", "note": "Unlikely to return before Final Four at earliest" },
+      { "player": "Patrick Ngongba II", "position": "C", "injury": "Right foot soreness", "status": "PROBABLE", "isStarter": true, "ppg": 10.7, "impact": "medium" }
+    ],
+    "Arizona": [
+      { "player": "Jaden Bradley", "position": "G", "injury": "Left wrist (X-rays negative)", "status": "PROBABLE", "isStarter": true, "ppg": 13.4, "impact": "low" },
+      { "player": "Brayden Burries", "position": "G", "injury": "Left quad/calf tightness + illness", "status": "PROBABLE", "isStarter": true, "ppg": 16.0, "impact": "low" }
+    ],
+    "Michigan": [
+      { "player": "L.J. Cason", "position": "G", "injury": "Torn right ACL", "status": "OUT", "isStarter": false, "ppg": 8.4, "impact": "medium", "note": "Season-ending; key bench guard" },
+      { "player": "Yaxel Lendeborg", "position": "F", "injury": "Ankle (stepped on opponent's foot)", "status": "PROBABLE", "isStarter": true, "ppg": 14.3, "impact": "low" }
+    ],
+    "Florida": [
+      { "player": "Thomas Haugh", "position": "F", "injury": "Undisclosed", "status": "PROBABLE", "isStarter": false, "ppg": 17.2, "impact": "low" }
+    ],
+    "Houston": [
+      { "player": "J'Wan Roberts", "position": "F", "injury": "Grade 2 right ankle sprain", "status": "PROBABLE", "isStarter": true, "ppg": 10.8, "impact": "medium", "note": "Will play with wrap and brace" }
+    ],
+    "UConn": [
+      { "player": "Silas Demary Jr.", "position": "G", "injury": "Left ankle sprain (X-ray negative)", "status": "PROBABLE", "isStarter": true, "ppg": 10.9, "impact": "low" },
+      { "player": "Jaylin Stewart", "position": "F", "injury": "Sore knee (out since Feb 21)", "status": "QUESTIONABLE", "isStarter": false, "ppg": 4.5, "impact": "low" }
+    ],
+    "North Carolina": [
+      { "player": "Caleb Wilson", "position": "F", "injury": "Fractured left hand + fractured right thumb (surgery)", "status": "OUT", "isStarter": true, "ppg": 19.8, "impact": "critical", "note": "Projected top-5 NBA pick; team 0-2 without him" },
+      { "player": "James Brown", "position": "F", "injury": "Foot", "status": "OUT", "isStarter": false, "ppg": 1.2, "impact": "low" }
+    ],
+    "Texas Tech": [
+      { "player": "JT Toppin", "position": "F", "injury": "Torn ACL (Feb 17)", "status": "OUT", "isStarter": true, "ppg": 21.8, "impact": "critical", "note": "All-American, Wooden Award contender; defense fell from 24th to 119th" },
+      { "player": "LeJuan Watts", "position": "F", "injury": "Foot/ankle", "status": "QUESTIONABLE", "isStarter": false, "ppg": 11.5, "impact": "high" },
+      { "player": "Christian Anderson", "position": "G", "injury": "Groin pull (Big 12 Tournament)", "status": "PROBABLE", "isStarter": true, "ppg": 18.9, "impact": "medium" }
+    ],
+    "BYU": [
+      { "player": "Richie Saunders", "position": "F", "injury": "Torn ACL (mid-February)", "status": "OUT", "isStarter": true, "ppg": 18.0, "impact": "critical", "note": "Senior starter; 38% from 3" },
+      { "player": "Dawson Baker", "position": "G", "injury": "Knee", "status": "OUT", "isStarter": false, "ppg": 7.5, "impact": "medium" }
+    ],
+    "Gonzaga": [
+      { "player": "Braden Huff", "position": "F", "injury": "Left knee (out since Jan 15)", "status": "QUESTIONABLE", "isStarter": true, "ppg": 17.8, "impact": "critical", "note": "Began light on-court work; possibly available 2nd weekend" }
+    ],
+    "Louisville": [
+      { "player": "Mikel Brown Jr.", "position": "G", "injury": "Back (out since Feb 28)", "status": "QUESTIONABLE", "isStarter": true, "ppg": 18.2, "impact": "critical", "note": "Likely lottery pick; team 2-3 without him" }
+    ],
+    "Kansas": [
+      { "player": "Darryn Peterson", "position": "G", "injury": "Recurring cramps/hamstring/ankle (missed 11 games)", "status": "PROBABLE", "isStarter": true, "ppg": 19.8, "impact": "medium", "note": "Played 30 min in each of last 6 games" }
+    ],
+    "Kentucky": [
+      { "player": "Jaland Lowe", "position": "G", "injury": "Dislocated shoulder (3x, season-ending surgery)", "status": "OUT", "isStarter": true, "ppg": null, "impact": "critical" },
+      { "player": "Jayden Quaintance", "position": "F", "injury": "Swelling in surgically repaired right knee", "status": "OUT", "isStarter": false, "ppg": null, "impact": "high", "note": "Only played 4 games this season" }
+    ],
+    "UCLA": [
+      { "player": "Tyler Bilodeau", "position": "F", "injury": "Mild right knee strain", "status": "PROBABLE", "isStarter": true, "ppg": 17.6, "impact": "low" },
+      { "player": "Donovan Dent", "position": "G", "injury": "Calf strain", "status": "PROBABLE", "isStarter": true, "ppg": 13.5, "impact": "medium", "note": "Visibly limited in Big Ten semis" }
+    ],
+    "Clemson": [
+      { "player": "Carter Welling", "position": "F", "injury": "Torn right ACL", "status": "OUT", "isStarter": true, "ppg": 10.2, "impact": "high" },
+      { "player": "Zac Foster", "position": "G", "injury": "Knee", "status": "OUT", "isStarter": false, "ppg": 6.9, "impact": "medium" }
+    ],
+    "Villanova": [
+      { "player": "Matt Hodge", "position": "F", "injury": "Torn right ACL", "status": "OUT", "isStarter": true, "ppg": 9.2, "impact": "high" }
+    ],
+    "Wisconsin": [
+      { "player": "Nolan Winter", "position": "F/C", "injury": "Left ankle sprain (sat out Big Ten Tournament)", "status": "PROBABLE", "isStarter": true, "ppg": 13.3, "impact": "medium", "note": "Says he'll be ready" }
+    ],
+    "SMU": [
+      { "player": "B.J. Edwards", "position": "G", "injury": "Ankle (missed last 5 games)", "status": "QUESTIONABLE", "isStarter": true, "ppg": 12.7, "impact": "high" }
+    ],
+    "Texas A&M": [
+      { "player": "Mackenzie Mgbako", "position": "F", "injury": "Jones fracture (foot)", "status": "OUT", "isStarter": false, "ppg": 10.4, "impact": "high", "note": "Season-ending" }
+    ],
+    "Arkansas": [
+      { "player": "Karter Knox", "position": "F", "injury": "Left meniscus tear (surgery mid-Feb)", "status": "OUT", "isStarter": false, "ppg": 8.1, "impact": "medium", "note": "Outside chance of late tournament return" }
+    ],
+    "Illinois": [
+      { "player": "Kylan Boswell", "position": "G", "injury": "Hand", "status": "PROBABLE", "isStarter": true, "ppg": 13.3, "impact": "low", "note": "Returning" }
+    ],
+    "Kennesaw State": [
+      { "player": "Simeon Cottle", "position": "G", "injury": "Suspension", "status": "OUT", "isStarter": true, "ppg": 20.2, "impact": "critical" }
+    ]
+  },
+  "adjEMPenalties": {
+    "North Carolina": -5.0,
+    "Texas Tech": -5.0,
+    "BYU": -4.0,
+    "Kentucky": -4.0,
+    "Louisville": -3.5,
+    "Gonzaga": -3.0,
+    "Duke": -1.5,
+    "Clemson": -2.5,
+    "Villanova": -2.0,
+    "Kennesaw State": -4.0,
+    "UCLA": -1.0,
+    "Houston": -1.0,
+    "Michigan": -1.0,
+    "Wisconsin": -1.0,
+    "SMU": -2.0,
+    "Texas A&M": -2.0,
+    "Arkansas": -1.0,
+    "Kansas": -0.5,
+    "UConn": -0.5,
+    "Illinois": -0.5
+  }
+}
