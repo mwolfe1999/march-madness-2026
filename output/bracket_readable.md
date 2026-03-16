@@ -3,8 +3,8 @@
 | # | Bracket | Champion | Final Four | Upsets | Confidence |
 |---|---------|----------|-----------|--------|------------|
 | 1 | BEST GUESS | **Arizona** | UConn(2), Arizona(1), Houston(2), Michigan(1) | 7 | HIGH — pressure-tested game by game, best risk/reward for $1M bracket **← RECOMMENDED** |
-| 2 | CHALK | **Michigan** | Duke(1), Arizona(1), Florida(1), Michigan(1) | 5 | MODERATE — highest raw accuracy but less pool differentiation |
-| 3 | SWING | **Houston** | St. John's(5), Purdue(2), Houston(2), Michigan(1) | 8 | LOWER — high variance, high ceiling if chaos hits |
+| 2 | CHALK | **Duke** | Duke(1), Arizona(1), Florida(1), Michigan(1) | 5 | MODERATE — highest raw accuracy but less pool differentiation |
+| 3 | SWING | **Houston** | St. John's(5), Purdue(2), Houston(2), Iowa State(2) | 8 | LOWER — high variance, high ceiling if chaos hits |
 
 ---
 
@@ -288,13 +288,13 @@ Win Prob: 58% | Public: 14.0% | Pool Value: 41.3
 
 # 2026 March Madness — CHALK Bracket
 
-**Strategy:** Maximize accuracy. Michigan champion, Vanderbilt Cinderella to S16. Safest bracket.
+**Strategy:** Duke champion. All 4 one-seeds in F4. Covers the most likely champion (24.4% BPI).
 **Confidence:** MODERATE — highest raw accuracy but less pool differentiation
 **Generated:** 2026-03-16
 **Pool:** Medium-to-large (50-200 entries) | Scoring: 1-2-4-8-16-32
 
-## Champion: **Michigan**
-Win Prob: 50% | Public: 15.3% | Pool Value: 34.9
+## Champion: **Duke**
+Win Prob: 51% | Public: 24.4% | Pool Value: 34.9
 
 ## Final Four
 - **East:** Duke (1)
@@ -545,12 +545,12 @@ Win Prob: 50% | Public: 15.3% | Pool Value: 34.9
 → **Michigan** | 52% | composite
 
 (1) Duke vs. (1) Florida
-→ **Duke** | 57% | expert consensus
+→ **Duke** | 57% | pool-value pick, expert consensus
 
 ## CHAMPIONSHIP
 
 (1) Michigan vs. (1) Duke
-→ **Michigan** | 50% | composite
+→ **Duke** | 51% | pool-value pick
 
 ---
 
@@ -558,6 +558,7 @@ Win Prob: 50% | Public: 15.3% | Pool Value: 34.9
 
 - No 13-over-4 (70% of tournaments have one).
 - All 4 one-seeds in F4 (5% historical rate).
+- Champion (Duke) is the most popular pick — less pool edge.
 
 - 1-seeds in F4: 4 | R64 upsets: 5
 
@@ -566,19 +567,19 @@ Win Prob: 50% | Public: 15.3% | Pool Value: 34.9
 
 # 2026 March Madness — SWING Bracket
 
-**Strategy:** Houston champion, St. John's wins East, deep Cinderella runs. Large pool strategy.
+**Strategy:** Houston champion, St. John's wins East, Iowa State wins Midwest. Max diversification.
 **Confidence:** LOWER — high variance, high ceiling if chaos hits
 **Generated:** 2026-03-16
 **Pool:** Medium-to-large (50-200 entries) | Scoring: 1-2-4-8-16-32
 
 ## Champion: **Houston**
-Win Prob: 58% | Public: 9.4% | Pool Value: 40.6
+Win Prob: 52% | Public: 9.4% | Pool Value: 22.6
 
 ## Final Four
 - **East:** St. John's (5)
 - **West:** Purdue (2)
 - **South:** Houston (2)
-- **Midwest:** Michigan (1)
+- **Midwest:** Iowa State (2)
 
 ## R64 Upsets: 8
 - **(13) Cal Baptist** over Kansas — 14% [calibrated]
@@ -803,7 +804,7 @@ Win Prob: 58% | Public: 9.4% | Pool Value: 40.6
 → **Virginia** | 54% | 61% pub | -15% gap | source disagreement, -15% overexposed
 
 (10) Santa Clara vs. (2) Iowa State
-→ **Iowa State** | 72% | 21% pub | +6% gap | eff favors opp
+→ **Iowa State** | 72% | 21% pub | +6% gap | pool-value pick, eff favors opp
 
 ### Sweet 16
 
@@ -811,34 +812,34 @@ Win Prob: 58% | Public: 9.4% | Pool Value: 40.6
 → **Michigan** | 69% | 73% pub | -3% gap | efficiency edge, expert consensus, source disagreement
 
 (3) Virginia vs. (2) Iowa State
-→ **Iowa State** | 61% | 50% pub | -10% gap | eff favors opp, -10% overexposed
+→ **Iowa State** | 61% | 50% pub | -10% gap | pool-value pick, eff favors opp, -10% overexposed
 
 ### Elite 8
 
 (1) Michigan vs. (2) Iowa State
-→ **Michigan** | 60% | 59% pub | +1% gap | expert consensus
+→ **Iowa State** | 60% | 59% pub | +1% gap | pool-value pick, expert consensus
 
 ---
 
 ## FINAL FOUR
 
-(2) Purdue vs. (1) Michigan
-→ **Michigan** | 62% | eff favors opp, +16% value
+(2) Purdue vs. (2) Iowa State
+→ **Iowa State** | 53% | +25% value
 
 (5) St. John's vs. (2) Houston
 → **Houston** | 61% | pool-value pick, +34% value
 
 ## CHAMPIONSHIP
 
-(1) Michigan vs. (2) Houston
-→ **Houston** | 58% | pool-value pick, efficiency edge, +12% value
+(2) Iowa State vs. (2) Houston
+→ **Houston** | 52% | pool-value pick, +22% value
 
 ---
 
 ## Pattern Flags
 
 
-- 1-seeds in F4: 1 | R64 upsets: 8
+- 1-seeds in F4: 0 | R64 upsets: 8
 
 
 ---

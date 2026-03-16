@@ -1,12 +1,12 @@
 # 2026 March Madness — CHALK Bracket
 
-**Strategy:** Maximize accuracy. Michigan champion, Vanderbilt Cinderella to S16. Safest bracket.
+**Strategy:** Duke champion. All 4 one-seeds in F4. Covers the most likely champion (24.4% BPI).
 **Confidence:** MODERATE — highest raw accuracy but less pool differentiation
 **Generated:** 2026-03-16
 **Pool:** Medium-to-large (50-200 entries) | Scoring: 1-2-4-8-16-32
 
-## Champion: **Michigan**
-Win Prob: 50% | Public: 15.3% | Pool Value: 34.9
+## Champion: **Duke**
+Win Prob: 51% | Public: 24.4% | Pool Value: 34.9
 
 ## Final Four
 - **East:** Duke (1)
@@ -257,12 +257,12 @@ Win Prob: 50% | Public: 15.3% | Pool Value: 34.9
 → **Michigan** | 52% | composite
 
 (1) Duke vs. (1) Florida
-→ **Duke** | 57% | expert consensus
+→ **Duke** | 57% | pool-value pick, expert consensus
 
 ## CHAMPIONSHIP
 
 (1) Michigan vs. (1) Duke
-→ **Michigan** | 50% | composite
+→ **Duke** | 51% | pool-value pick
 
 ---
 
@@ -270,5 +270,6 @@ Win Prob: 50% | Public: 15.3% | Pool Value: 34.9
 
 - No 13-over-4 (70% of tournaments have one).
 - All 4 one-seeds in F4 (5% historical rate).
+- Champion (Duke) is the most popular pick — less pool edge.
 
 - 1-seeds in F4: 4 | R64 upsets: 5

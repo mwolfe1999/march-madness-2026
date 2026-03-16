@@ -1,18 +1,18 @@
 # 2026 March Madness — SWING Bracket
 
-**Strategy:** Houston champion, St. John's wins East, deep Cinderella runs. Large pool strategy.
+**Strategy:** Houston champion, St. John's wins East, Iowa State wins Midwest. Max diversification.
 **Confidence:** LOWER — high variance, high ceiling if chaos hits
 **Generated:** 2026-03-16
 **Pool:** Medium-to-large (50-200 entries) | Scoring: 1-2-4-8-16-32
 
 ## Champion: **Houston**
-Win Prob: 58% | Public: 9.4% | Pool Value: 40.6
+Win Prob: 52% | Public: 9.4% | Pool Value: 22.6
 
 ## Final Four
 - **East:** St. John's (5)
 - **West:** Purdue (2)
 - **South:** Houston (2)
-- **Midwest:** Michigan (1)
+- **Midwest:** Iowa State (2)
 
 ## R64 Upsets: 8
 - **(13) Cal Baptist** over Kansas — 14% [calibrated]
@@ -237,7 +237,7 @@ Win Prob: 58% | Public: 9.4% | Pool Value: 40.6
 → **Virginia** | 54% | 61% pub | -15% gap | source disagreement, -15% overexposed
 
 (10) Santa Clara vs. (2) Iowa State
-→ **Iowa State** | 72% | 21% pub | +6% gap | eff favors opp
+→ **Iowa State** | 72% | 21% pub | +6% gap | pool-value pick, eff favors opp
 
 ### Sweet 16
 
@@ -245,31 +245,31 @@ Win Prob: 58% | Public: 9.4% | Pool Value: 40.6
 → **Michigan** | 69% | 73% pub | -3% gap | efficiency edge, expert consensus, source disagreement
 
 (3) Virginia vs. (2) Iowa State
-→ **Iowa State** | 61% | 50% pub | -10% gap | eff favors opp, -10% overexposed
+→ **Iowa State** | 61% | 50% pub | -10% gap | pool-value pick, eff favors opp, -10% overexposed
 
 ### Elite 8
 
 (1) Michigan vs. (2) Iowa State
-→ **Michigan** | 60% | 59% pub | +1% gap | expert consensus
+→ **Iowa State** | 60% | 59% pub | +1% gap | pool-value pick, expert consensus
 
 ---
 
 ## FINAL FOUR
 
-(2) Purdue vs. (1) Michigan
-→ **Michigan** | 62% | eff favors opp, +16% value
+(2) Purdue vs. (2) Iowa State
+→ **Iowa State** | 53% | +25% value
 
 (5) St. John's vs. (2) Houston
 → **Houston** | 61% | pool-value pick, +34% value
 
 ## CHAMPIONSHIP
 
-(1) Michigan vs. (2) Houston
-→ **Houston** | 58% | pool-value pick, efficiency edge, +12% value
+(2) Iowa State vs. (2) Houston
+→ **Houston** | 52% | pool-value pick, +22% value
 
 ---
 
 ## Pattern Flags
 
 
-- 1-seeds in F4: 1 | R64 upsets: 8
+- 1-seeds in F4: 0 | R64 upsets: 8

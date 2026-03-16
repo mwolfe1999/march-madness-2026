@@ -62,11 +62,11 @@ const STRATEGIES = {
   chalk: {
     name: 'CHALK',
     tag: 'chalk',
-    description: 'Maximize accuracy. Michigan champion, Vanderbilt Cinderella to S16. Safest bracket.',
+    description: 'Duke champion. All 4 one-seeds in F4. Covers the most likely champion (24.4% BPI).',
     targetUpsets: 4,
     upsetThreshold: 25,
     injuryMultiplier: 0.5,
-    champOverride: null,
+    champOverride: 'Duke',
     f4Override: {},
     // Even chalk needs some Cinderella — Vanderbilt beat Florida in SEC tourney
     pathOverrides: [
@@ -79,14 +79,12 @@ const STRATEGIES = {
   swing: {
     name: 'SWING',
     tag: 'swing',
-    description: 'Houston champion, St. John\'s wins East, deep Cinderella runs. Large pool strategy.',
+    description: 'Houston champion, St. John\'s wins East, Iowa State wins Midwest. Max diversification.',
     targetUpsets: 8,
     upsetThreshold: 8,
     injuryMultiplier: 1.5,
     champOverride: 'Houston',
-    // In Swing: St. John's wins the ENTIRE East region (beat Kansas, Duke, UConn)
-    // Rationale: SJU crushed UConn 72-52 in Big East final, 16-1 stretch, Pitino magic
-    f4Override: { South: 'Houston', West: 'Purdue', East: "St. John's" },
+    f4Override: { South: 'Houston', West: 'Purdue', East: "St. John's", Midwest: 'Iowa State' },
     pathOverrides: [
       { round: 'R32', winner: 'NC State', note: 'Gonzaga missing Huff' },
       { round: 'S16', winner: "St. John's", note: 'Duke injuries' },
