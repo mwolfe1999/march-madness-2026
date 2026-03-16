@@ -33,7 +33,7 @@ const STRATEGIES = {
     name: 'BEST GUESS',
     tag: 'best_guess',
     description: 'Arizona champion, Houston F4, St. John\'s Cinderella to E8, NC State to S16. RECOMMENDED.',
-    targetUpsets: 8,              // All 8 validated upsets locked (matches 8.3 historical avg)
+    targetUpsets: 7,              // 7 validated upsets (NC State Cinderella dropped)
     upsetThreshold: 12,
     injuryMultiplier: 1.0,
     champOverride: 'Arizona',
@@ -43,7 +43,7 @@ const STRATEGIES = {
     forcedUpsetLosers: [
       'Georgia',         // →Saint Louis (40% from 3, UGA defense 315th)
       'North Carolina',  // →VCU (Wilson OUT, 8+ expert consensus)
-      'BYU',             // →NC State (Saunders ACL, Cinderella path to S16)
+      // BYU removed — NC State Cinderella dropped (First Four team too risky)
       'Kentucky',        // →Santa Clara (Lowe + Quaintance OUT, 7+ sources)
       'Texas Tech',      // →Akron (Toppin OUT, defense 31st→87th, 5+ sources)
       'Kansas',          // →Cal Baptist (Kansas 3-4 in L7, blown out by Houston; 13o4 pattern)
@@ -51,7 +51,8 @@ const STRATEGIES = {
     protectedWinners: ['Louisville', 'UCLA'],  // Don't upset Louisville (Brown returning) or UCLA (both stars healthy, -5.5)
     pathOverrides: [
       { round: 'S16', winner: "St. John's", note: 'Duke missing Foster+Evans+Ngongba; SJU 16-1 in L17, Pitino 7 Final Fours. Bruce Pearl picked exactly this.' },
-      { round: 'R32', winner: 'NC State', note: 'Gonzaga missing Huff (17.8 PPG, dislocated kneecap, OUT first weekend); NC State SRS 18.02 P5 talent' },
+      // NC State Cinderella DROPPED — too risky for a First Four team (20-13) needing 3 wins to reach S16
+      // Gonzaga advances even without Huff; their SRS 25.11 is still elite
       { round: 'R32', winner: 'Tennessee', note: 'Tennessee SRS 22.08 > Virginia 21.60; Bilas picks Vols; physical + offensive rebounding edge' },
     ],
     vegasWeight: 0.42,
@@ -510,10 +511,10 @@ function simulateBracket(teams, strategy) {
     }
   }
 
-  // F4
+  // F4 — 2026 pairings: East vs South, West vs Midwest
   const f4m = [
-    { t1: regionWinners['East'], t2: regionWinners['West'], label: 'East vs West' },
-    { t1: regionWinners['South'], t2: regionWinners['Midwest'], label: 'South vs Midwest' }
+    { t1: regionWinners['West'], t2: regionWinners['Midwest'], label: 'West vs Midwest' },
+    { t1: regionWinners['East'], t2: regionWinners['South'], label: 'East vs South' }
   ];
   const f4Winners = [];
   for (const m of f4m) {

@@ -6,7 +6,7 @@
 **Pool:** Medium-to-large (50-200 entries) | Scoring: 1-2-4-8-16-32
 
 ## Champion: **Houston**
-Win Prob: 54% | Public: 9.4% | Pool Value: 22.3
+Win Prob: 58% | Public: 9.4% | Pool Value: 40.6
 
 ## Final Four
 - **East:** St. John's (5)
@@ -256,16 +256,16 @@ Win Prob: 54% | Public: 9.4% | Pool Value: 22.3
 
 ## FINAL FOUR
 
-(5) St. John's vs. (2) Purdue
-→ **Purdue** | 58% | +37% value
+(2) Purdue vs. (1) Michigan
+→ **Michigan** | 62% | eff favors opp, +16% value
 
-(2) Houston vs. (1) Michigan
-→ **Houston** | 58% | pool-value pick, eff favors opp
+(5) St. John's vs. (2) Houston
+→ **Houston** | 61% | pool-value pick, +34% value
 
 ## CHAMPIONSHIP
 
-(2) Purdue vs. (2) Houston
-→ **Houston** | 54% | pool-value pick, +24% value
+(1) Michigan vs. (2) Houston
+→ **Houston** | 58% | pool-value pick, efficiency edge, +12% value
 
 ---
 

@@ -6,7 +6,7 @@
 **Pool:** Medium-to-large (50-200 entries) | Scoring: 1-2-4-8-16-32
 
 ## Champion: **Arizona**
-Win Prob: 52% | Public: 14.0% | Pool Value: 29.9
+Win Prob: 58% | Public: 14.0% | Pool Value: 41.3
 
 ## Final Four
 - **East:** UConn (2)
@@ -14,10 +14,9 @@ Win Prob: 52% | Public: 14.0% | Pool Value: 29.9
 - **South:** Houston (2)
 - **Midwest:** Michigan (1)
 
-## R64 Upsets: 8
+## R64 Upsets: 7
 - **(13) Cal Baptist** over Kansas — 13% [calibrated]
 - **(9) Utah State** over Villanova — 54%
-- **(11) NC State** over BYU — 47% [calibrated]
 - **(9) Iowa** over Clemson — 56%
 - **(11) VCU** over North Carolina — 43% [calibrated]
 - **(9) Saint Louis** over Georgia — 47% [calibrated]
@@ -100,7 +99,7 @@ Win Prob: 52% | Public: 14.0% | Pool Value: 29.9
 → **Arkansas** | 90% | 92% pub | -1% gap | efficiency edge, Vegas fav, expert consensus
 
 (6) BYU vs. (11) NC State
-→ **NC State** **UPSET** (calibrated) | 47% | 63% pub | -10% gap | UPSET, calibrated, -10% overexposed
+→ **BYU** | 53% | 63% pub | -10% gap | -10% overexposed
 
 (3) Gonzaga vs. (14) Kennesaw State
 → **Gonzaga** | 89% | 96% pub | -7% gap | efficiency edge, Vegas fav, source disagreement
@@ -119,8 +118,8 @@ Win Prob: 52% | Public: 14.0% | Pool Value: 29.9
 (5) Wisconsin vs. (4) Arkansas
 → **Arkansas** | 59% | 58% pub | -17% gap | source disagreement, -17% overexposed
 
-(11) NC State vs. (3) Gonzaga
-→ **NC State** **UPSET** | 45% | 14% pub | +24% gap | UPSET, CINDERELLA — Gonzaga missing Huff (17.8 PPG, dislocated kneecap, OUT first weekend); NC State SRS 18.02 P5 talent, eff favors opp, +24% value
+(6) BYU vs. (3) Gonzaga
+→ **Gonzaga** | 61% | 48% pub | -9% gap | eff favors opp
 
 (7) Miami FL vs. (2) Purdue
 → **Purdue** | 70% | 41% pub | -12% gap | eff favors opp, Vegas dog, -12% overexposed
@@ -130,8 +129,8 @@ Win Prob: 52% | Public: 14.0% | Pool Value: 29.9
 (1) Arizona vs. (4) Arkansas
 → **Arizona** | 69% | 72% pub | -3% gap | efficiency edge, expert consensus
 
-(11) NC State vs. (2) Purdue
-→ **Purdue** | 71% | 10% pub | +19% gap | eff favors opp, Vegas dog, +19% value
+(3) Gonzaga vs. (2) Purdue
+→ **Purdue** | 61% | 57% pub | -18% gap | eff favors opp, source disagreement, -18% overexposed
 
 ### Elite 8
 
@@ -256,20 +255,20 @@ Win Prob: 52% | Public: 14.0% | Pool Value: 29.9
 
 ## FINAL FOUR
 
-(2) UConn vs. (1) Arizona
-→ **Arizona** | 67% | pool-value pick, eff favors opp, +19% value
+(1) Arizona vs. (1) Michigan
+→ **Arizona** | 52% | pool-value pick
 
-(2) Houston vs. (1) Michigan
-→ **Michigan** | 59% | eff favors opp
+(2) UConn vs. (2) Houston
+→ **Houston** | 60% | +26% value
 
 ## CHAMPIONSHIP
 
-(1) Arizona vs. (1) Michigan
-→ **Arizona** | 52% | pool-value pick
+(1) Arizona vs. (2) Houston
+→ **Arizona** | 58% | pool-value pick, +13% value
 
 ---
 
 ## Pattern Flags
 
 
-- 1-seeds in F4: 2 | R64 upsets: 8
+- 1-seeds in F4: 2 | R64 upsets: 7

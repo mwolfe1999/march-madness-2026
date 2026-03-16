@@ -4,7 +4,7 @@
     "confidence": "HIGH — pressure-tested game by game, best risk/reward for $1M bracket",
     "description": "Arizona champion, Houston F4, St. John's Cinderella to E8, NC State to S16. RECOMMENDED.",
     "champion": "Arizona",
-    "championPoolValueScore": 29.877,
+    "championPoolValueScore": 41.347,
     "championPublicPickRate": 0.14,
     "finalFour": [
       "UConn",
@@ -720,13 +720,13 @@
           "name": "NC State",
           "seed": 11
         },
-        "pick": "NC State",
-        "winProbability": 0.47,
+        "pick": "BYU",
+        "winProbability": 0.53,
         "publicPickRate": 0.633,
         "valueGap": -0.103,
         "poolValueScore": 0.837,
-        "isUpset": true,
-        "upsetFlipped": true,
+        "isUpset": false,
+        "upsetFlipped": false,
         "cinderella": false,
         "cinderellaNote": null,
         "contradiction": 0.049,
@@ -893,28 +893,28 @@
         "round": "R32",
         "region": "West",
         "team1": {
-          "name": "NC State",
-          "seed": 11
+          "name": "BYU",
+          "seed": 6
         },
         "team2": {
           "name": "Gonzaga",
           "seed": 3
         },
-        "pick": "NC State",
-        "winProbability": 0.45,
-        "publicPickRate": 0.141,
-        "valueGap": 0.238,
-        "poolValueScore": 1.445,
-        "isUpset": true,
+        "pick": "Gonzaga",
+        "winProbability": 0.611,
+        "publicPickRate": 0.48,
+        "valueGap": -0.091,
+        "poolValueScore": 2.35,
+        "isUpset": false,
         "upsetFlipped": false,
-        "cinderella": true,
-        "cinderellaNote": "Gonzaga missing Huff (17.8 PPG, dislocated kneecap, OUT first weekend); NC State SRS 18.02 P5 talent",
+        "cinderella": false,
+        "cinderellaNote": null,
         "contradiction": 0.055,
         "sources": {
-          "historical": 0.38,
-          "efficiency": 0.379,
-          "market": 0.354,
-          "vegas": 0.354,
+          "historical": 0.455,
+          "efficiency": 0.351,
+          "market": 0.382,
+          "vegas": 0.382,
           "consensus": 0.5
         },
         "sourcesUsed": 5
@@ -983,28 +983,28 @@
         "round": "S16",
         "region": "West",
         "team1": {
-          "name": "NC State",
-          "seed": 11
+          "name": "Gonzaga",
+          "seed": 3
         },
         "team2": {
           "name": "Purdue",
           "seed": 2
         },
         "pick": "Purdue",
-        "winProbability": 0.71,
-        "publicPickRate": 0.098,
-        "valueGap": 0.193,
-        "poolValueScore": 3.146,
+        "winProbability": 0.608,
+        "publicPickRate": 0.575,
+        "valueGap": -0.183,
+        "poolValueScore": 5.719,
         "isUpset": false,
         "upsetFlipped": false,
         "cinderella": false,
         "cinderellaNote": null,
-        "contradiction": 0.117,
+        "contradiction": 0.162,
         "sources": {
-          "historical": 0.365,
-          "efficiency": 0.285,
-          "market": 0.333,
-          "vegas": 0.333,
+          "historical": 0.485,
+          "efficiency": 0.396,
+          "market": 0.447,
+          "vegas": 0.447,
           "consensus": 0.045
         },
         "sourcesUsed": 5
@@ -1941,67 +1941,7 @@
       },
       {
         "round": "F4",
-        "region": "East vs West",
-        "team1": {
-          "name": "UConn",
-          "seed": 2
-        },
-        "team2": {
-          "name": "Arizona",
-          "seed": 1
-        },
-        "pick": "Arizona",
-        "winProbability": 0.665,
-        "publicPickRate": 0.148,
-        "valueGap": 0.187,
-        "poolValueScore": 12.494,
-        "isUpset": false,
-        "upsetFlipped": false,
-        "cinderella": false,
-        "cinderellaNote": null,
-        "contradiction": 0.135,
-        "sources": {
-          "historical": 0.485,
-          "efficiency": 0.288,
-          "market": 0.396,
-          "vegas": 0.396,
-          "consensus": 0.091
-        },
-        "sourcesUsed": 5
-      },
-      {
-        "round": "F4",
-        "region": "South vs Midwest",
-        "team1": {
-          "name": "Houston",
-          "seed": 2
-        },
-        "team2": {
-          "name": "Michigan",
-          "seed": 1
-        },
-        "pick": "Michigan",
-        "winProbability": 0.592,
-        "publicPickRate": 0.333,
-        "valueGap": 0.075,
-        "poolValueScore": 14.205,
-        "isUpset": false,
-        "upsetFlipped": false,
-        "cinderella": false,
-        "cinderellaNote": null,
-        "contradiction": 0.07,
-        "sources": {
-          "historical": 0.485,
-          "efficiency": 0.321,
-          "market": 0.434,
-          "vegas": 0.434,
-          "consensus": 0.529
-        },
-        "sourcesUsed": 5
-      },
-      {
-        "round": "Championship",
-        "region": "Championship",
+        "region": "West vs Midwest",
         "team1": {
           "name": "Arizona",
           "seed": 1
@@ -2014,7 +1954,7 @@
         "winProbability": 0.515,
         "publicPickRate": 0.448,
         "valueGap": 0.037,
-        "poolValueScore": 29.877,
+        "poolValueScore": 14.939,
         "isUpset": false,
         "upsetFlipped": false,
         "cinderella": false,
@@ -2028,13 +1968,73 @@
           "consensus": 0.556
         },
         "sourcesUsed": 5
+      },
+      {
+        "round": "F4",
+        "region": "East vs South",
+        "team1": {
+          "name": "UConn",
+          "seed": 2
+        },
+        "team2": {
+          "name": "Houston",
+          "seed": 2
+        },
+        "pick": "Houston",
+        "winProbability": 0.595,
+        "publicPickRate": 0.148,
+        "valueGap": 0.257,
+        "poolValueScore": 11.183,
+        "isUpset": false,
+        "upsetFlipped": false,
+        "cinderella": false,
+        "cinderellaNote": null,
+        "contradiction": 0.143,
+        "sources": {
+          "historical": 0.5,
+          "efficiency": 0.416,
+          "market": 0.444,
+          "vegas": 0.444,
+          "consensus": 0.1
+        },
+        "sourcesUsed": 5
+      },
+      {
+        "round": "Championship",
+        "region": "Championship",
+        "team1": {
+          "name": "Arizona",
+          "seed": 1
+        },
+        "team2": {
+          "name": "Houston",
+          "seed": 2
+        },
+        "pick": "Arizona",
+        "winProbability": 0.579,
+        "publicPickRate": 0.448,
+        "valueGap": 0.131,
+        "poolValueScore": 41.347,
+        "isUpset": false,
+        "upsetFlipped": false,
+        "cinderella": false,
+        "cinderellaNote": null,
+        "contradiction": 0.043,
+        "sources": {
+          "historical": 0.515,
+          "efficiency": 0.638,
+          "market": 0.557,
+          "vegas": 0.557,
+          "consensus": 0.526
+        },
+        "sourcesUsed": 5
       }
     ],
     "patternChecks": {
       "has12o5": true,
       "has13o4": true,
       "oneSeedsInF4": 2,
-      "totalUpsets": 8,
+      "totalUpsets": 7,
       "flags": []
     }
   },
@@ -2043,7 +2043,7 @@
     "confidence": "MODERATE — highest raw accuracy but less pool differentiation",
     "description": "Maximize accuracy. Michigan champion, Vanderbilt Cinderella to S16. Safest bracket.",
     "champion": "Michigan",
-    "championPoolValueScore": 37.493,
+    "championPoolValueScore": 34.891,
     "championPublicPickRate": 0.153,
     "finalFour": [
       "Duke",
@@ -3980,39 +3980,9 @@
       },
       {
         "round": "F4",
-        "region": "East vs West",
+        "region": "West vs Midwest",
         "team1": {
-          "name": "Duke",
-          "seed": 1
-        },
-        "team2": {
           "name": "Arizona",
-          "seed": 1
-        },
-        "pick": "Duke",
-        "winProbability": 0.518,
-        "publicPickRate": 0.571,
-        "valueGap": -0.053,
-        "poolValueScore": 14.518,
-        "isUpset": false,
-        "upsetFlipped": false,
-        "cinderella": false,
-        "cinderellaNote": null,
-        "contradiction": 0.016,
-        "sources": {
-          "historical": 0.5,
-          "efficiency": 0.526,
-          "market": 0.509,
-          "vegas": 0.509,
-          "consensus": 0.545
-        },
-        "sourcesUsed": 5
-      },
-      {
-        "round": "F4",
-        "region": "South vs Midwest",
-        "team1": {
-          "name": "Florida",
           "seed": 1
         },
         "team2": {
@@ -4020,21 +3990,51 @@
           "seed": 1
         },
         "pick": "Michigan",
-        "winProbability": 0.576,
-        "publicPickRate": 0.314,
-        "valueGap": 0.11,
-        "poolValueScore": 13.433,
+        "winProbability": 0.521,
+        "publicPickRate": 0.448,
+        "valueGap": 0.031,
+        "poolValueScore": 15.089,
         "isUpset": false,
         "upsetFlipped": false,
         "cinderella": false,
         "cinderellaNote": null,
-        "contradiction": 0.085,
+        "contradiction": 0.037,
         "sources": {
           "historical": 0.5,
-          "efficiency": 0.38,
-          "market": 0.476,
-          "vegas": 0.476,
-          "consensus": 0.273
+          "efficiency": 0.439,
+          "market": 0.49,
+          "vegas": 0.49,
+          "consensus": 0.556
+        },
+        "sourcesUsed": 5
+      },
+      {
+        "round": "F4",
+        "region": "East vs South",
+        "team1": {
+          "name": "Duke",
+          "seed": 1
+        },
+        "team2": {
+          "name": "Florida",
+          "seed": 1
+        },
+        "pick": "Duke",
+        "winProbability": 0.571,
+        "publicPickRate": 0.571,
+        "valueGap": 0,
+        "poolValueScore": 16.002,
+        "isUpset": false,
+        "upsetFlipped": false,
+        "cinderella": false,
+        "cinderellaNote": null,
+        "contradiction": 0.111,
+        "sources": {
+          "historical": 0.5,
+          "efficiency": 0.587,
+          "market": 0.523,
+          "vegas": 0.523,
+          "consensus": 0.8
         },
         "sourcesUsed": 5
       },
@@ -4042,18 +4042,18 @@
         "round": "Championship",
         "region": "Championship",
         "team1": {
-          "name": "Duke",
+          "name": "Michigan",
           "seed": 1
         },
         "team2": {
-          "name": "Michigan",
+          "name": "Duke",
           "seed": 1
         },
         "pick": "Michigan",
         "winProbability": 0.503,
-        "publicPickRate": 0.571,
-        "valueGap": -0.074,
-        "poolValueScore": 37.493,
+        "publicPickRate": 0.461,
+        "valueGap": 0.042,
+        "poolValueScore": 34.891,
         "isUpset": false,
         "upsetFlipped": false,
         "cinderella": false,
@@ -4061,10 +4061,10 @@
         "contradiction": 0.046,
         "sources": {
           "historical": 0.5,
-          "efficiency": 0.466,
-          "market": 0.499,
-          "vegas": 0.499,
-          "consensus": 0.6
+          "efficiency": 0.534,
+          "market": 0.501,
+          "vegas": 0.501,
+          "consensus": 0.4
         },
         "sourcesUsed": 5
       }
@@ -4085,7 +4085,7 @@
     "confidence": "LOWER — high variance, high ceiling if chaos hits",
     "description": "Houston champion, St. John's wins East, deep Cinderella runs. Large pool strategy.",
     "champion": "Houston",
-    "championPoolValueScore": 22.339,
+    "championPoolValueScore": 40.564,
     "championPublicPickRate": 0.094,
     "finalFour": [
       "St. John's",
@@ -6022,50 +6022,20 @@
       },
       {
         "round": "F4",
-        "region": "East vs West",
+        "region": "West vs Midwest",
         "team1": {
-          "name": "St. John's",
-          "seed": 5
-        },
-        "team2": {
           "name": "Purdue",
-          "seed": 2
-        },
-        "pick": "Purdue",
-        "winProbability": 0.583,
-        "publicPickRate": 0.044,
-        "valueGap": 0.373,
-        "poolValueScore": 9.764,
-        "isUpset": false,
-        "upsetFlipped": false,
-        "cinderella": false,
-        "cinderellaNote": null,
-        "contradiction": 0.079,
-        "sources": {
-          "historical": 0.455,
-          "efficiency": 0.405,
-          "market": 0.454,
-          "vegas": 0.454,
-          "consensus": 0.25
-        },
-        "sourcesUsed": 5
-      },
-      {
-        "round": "F4",
-        "region": "South vs Midwest",
-        "team1": {
-          "name": "Houston",
           "seed": 2
         },
         "team2": {
           "name": "Michigan",
           "seed": 1
         },
-        "pick": "Houston",
-        "winProbability": 0.584,
-        "publicPickRate": 0.333,
-        "valueGap": 0.083,
-        "poolValueScore": 14.018,
+        "pick": "Michigan",
+        "winProbability": 0.624,
+        "publicPickRate": 0.22,
+        "valueGap": 0.156,
+        "poolValueScore": 12.805,
         "isUpset": false,
         "upsetFlipped": false,
         "cinderella": false,
@@ -6073,10 +6043,40 @@
         "contradiction": 0.07,
         "sources": {
           "historical": 0.485,
-          "efficiency": 0.321,
-          "market": 0.45,
-          "vegas": 0.45,
-          "consensus": 0.529
+          "efficiency": 0.346,
+          "market": 0.401,
+          "vegas": 0.401,
+          "consensus": 0.273
+        },
+        "sourcesUsed": 5
+      },
+      {
+        "round": "F4",
+        "region": "East vs South",
+        "team1": {
+          "name": "St. John's",
+          "seed": 5
+        },
+        "team2": {
+          "name": "Houston",
+          "seed": 2
+        },
+        "pick": "Houston",
+        "winProbability": 0.612,
+        "publicPickRate": 0.044,
+        "valueGap": 0.344,
+        "poolValueScore": 10.251,
+        "isUpset": false,
+        "upsetFlipped": false,
+        "cinderella": false,
+        "cinderellaNote": null,
+        "contradiction": 0.131,
+        "sources": {
+          "historical": 0.455,
+          "efficiency": 0.432,
+          "market": 0.404,
+          "vegas": 0.404,
+          "consensus": 0.1
         },
         "sourcesUsed": 5
       },
@@ -6084,29 +6084,29 @@
         "round": "Championship",
         "region": "Championship",
         "team1": {
-          "name": "Purdue",
-          "seed": 2
+          "name": "Michigan",
+          "seed": 1
         },
         "team2": {
           "name": "Houston",
           "seed": 2
         },
         "pick": "Houston",
-        "winProbability": 0.545,
-        "publicPickRate": 0.22,
-        "valueGap": 0.235,
-        "poolValueScore": 22.339,
+        "winProbability": 0.584,
+        "publicPickRate": 0.461,
+        "valueGap": 0.123,
+        "poolValueScore": 40.564,
         "isUpset": false,
         "upsetFlipped": false,
         "cinderella": false,
         "cinderellaNote": null,
-        "contradiction": 0.097,
+        "contradiction": 0.07,
         "sources": {
-          "historical": 0.5,
-          "efficiency": 0.528,
-          "market": 0.438,
-          "vegas": 0.438,
-          "consensus": 0.25
+          "historical": 0.515,
+          "efficiency": 0.679,
+          "market": 0.55,
+          "vegas": 0.55,
+          "consensus": 0.471
         },
         "sourcesUsed": 5
       }

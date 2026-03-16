@@ -6,7 +6,7 @@
 **Pool:** Medium-to-large (50-200 entries) | Scoring: 1-2-4-8-16-32
 
 ## Champion: **Michigan**
-Win Prob: 50% | Public: 15.3% | Pool Value: 37.5
+Win Prob: 50% | Public: 15.3% | Pool Value: 34.9
 
 ## Final Four
 - **East:** Duke (1)
@@ -253,15 +253,15 @@ Win Prob: 50% | Public: 15.3% | Pool Value: 37.5
 
 ## FINAL FOUR
 
-(1) Duke vs. (1) Arizona
-→ **Duke** | 52% | composite
+(1) Arizona vs. (1) Michigan
+→ **Michigan** | 52% | composite
 
-(1) Florida vs. (1) Michigan
-→ **Michigan** | 58% | eff favors opp, +11% value
+(1) Duke vs. (1) Florida
+→ **Duke** | 57% | expert consensus
 
 ## CHAMPIONSHIP
 
-(1) Duke vs. (1) Michigan
+(1) Michigan vs. (1) Duke
 → **Michigan** | 50% | composite
 
 ---
