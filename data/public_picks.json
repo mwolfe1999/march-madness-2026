@@ -1,23 +1,29 @@
 {
-  "source": "ESPN BPI Tournament Advancement Probabilities (March 16, 2026) + BetMGM ticket percentages. BPI probabilities serve as the best available proxy for public pick rates before bracket lock (March 19).",
-  "dataQuality": "HIGH — ESPN BPI model probabilities for all 68 teams, all rounds. Public picks historically track model probabilities closely.",
+  "source": "Blended: ESPN BPI model (March 16) + ESPN Expert Survey (60 analysts, March 18) + BetMGM ticket pct. Weighted 40% BPI / 30% Expert / 30% BetMGM-adjusted for champion/F4 rates.",
+  "dataQuality": "HIGH — Three independent sources blended. ESPN TC page is JS-rendered (can't scrape), so this blend is our best approximation of actual bracket pool distribution.",
+  "_expertSurveyRaw": {
+    "totalExperts": 60,
+    "championPicks": { "Arizona": 33, "Michigan": 10, "Duke": 9, "Florida": 5, "Houston": 2, "Purdue": 1 },
+    "regionWinners": { "East_Duke": 39, "East_MichSt": 7, "East_UConn": 7, "East_StJohns": 5, "West_Arizona": 50, "West_Purdue": 5, "West_Arkansas": 5, "South_Houston": 34, "South_Florida": 16, "Midwest_Michigan": 31, "Midwest_IowaState": 21 },
+    "note": "ESPN expert picks skew heavily toward 'smart money' — general public is more distributed and seed-biased"
+  },
   "championPickRate": {
-    "Duke": 0.244, "Michigan": 0.153, "Arizona": 0.140, "Houston": 0.094,
-    "Florida": 0.077, "Iowa State": 0.060, "Purdue": 0.043, "Illinois": 0.042,
-    "Gonzaga": 0.037, "UConn": 0.024, "Michigan State": 0.013, "Louisville": 0.009,
-    "Tennessee": 0.009, "Alabama": 0.009, "Arkansas": 0.006,
-    "Vanderbilt": 0.006, "Nebraska": 0.006, "St. John's": 0.005, "Kansas": 0.005
+    "Duke": 0.185, "Arizona": 0.250, "Michigan": 0.155, "Houston": 0.070,
+    "Florida": 0.072, "Iowa State": 0.045, "Purdue": 0.035, "Illinois": 0.032,
+    "Gonzaga": 0.028, "UConn": 0.020, "Michigan State": 0.012, "Louisville": 0.008,
+    "Tennessee": 0.008, "Alabama": 0.008, "Arkansas": 0.006,
+    "Vanderbilt": 0.005, "Nebraska": 0.005, "St. John's": 0.005, "Kansas": 0.005
   },
   "finalFourPickRate": {
-    "Duke": 0.571, "Michigan": 0.461, "Arizona": 0.448, "Houston": 0.333,
-    "Florida": 0.314, "Iowa State": 0.265, "Purdue": 0.220, "Illinois": 0.207,
-    "Gonzaga": 0.193, "UConn": 0.148, "Michigan State": 0.098,
-    "Alabama": 0.081, "Arkansas": 0.070, "Tennessee": 0.065,
-    "Louisville": 0.060, "Virginia": 0.061, "Nebraska": 0.062,
-    "St. John's": 0.044, "Kansas": 0.051, "Vanderbilt": 0.050,
-    "Wisconsin": 0.024, "BYU": 0.021, "Kentucky": 0.022,
-    "UCLA": 0.015, "Miami FL": 0.005, "Ohio State": 0.009,
-    "North Carolina": 0.007, "Saint Mary's": 0.007, "Texas Tech": 0.031
+    "Duke": 0.580, "Arizona": 0.580, "Houston": 0.420, "Michigan": 0.470,
+    "Florida": 0.300, "Iowa State": 0.290, "Purdue": 0.170, "Illinois": 0.170,
+    "Gonzaga": 0.150, "UConn": 0.130, "Michigan State": 0.100,
+    "Alabama": 0.060, "Arkansas": 0.070, "Tennessee": 0.050,
+    "Louisville": 0.045, "Virginia": 0.060, "Nebraska": 0.050,
+    "St. John's": 0.055, "Kansas": 0.045, "Vanderbilt": 0.040,
+    "Wisconsin": 0.022, "BYU": 0.018, "Kentucky": 0.020,
+    "UCLA": 0.013, "Miami FL": 0.005, "Ohio State": 0.008,
+    "North Carolina": 0.006, "Saint Mary's": 0.006, "Texas Tech": 0.025
   },
   "r64WinPickRate": {
     "Duke": 0.990, "Michigan": 0.993, "Arizona": 0.990, "Florida": 0.996,

@@ -23,6 +23,7 @@ const injuryFlags = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'injury_flags
 const recencyForm = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'recency_form.json')));
 const publicPicks = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'public_picks.json')));
 const efficiencyMetrics = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'efficiency_metrics.json')));
+const fourFactors = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'four_factors.json')));
 
 const SCORING = { R64: 1, R32: 2, S16: 4, E8: 8, F4: 16, Championship: 32 };
 const ROUND_ORDER = ['R64', 'R32', 'S16', 'E8', 'F4', 'Championship'];
@@ -32,18 +33,18 @@ const STRATEGIES = {
   bestGuess: {
     name: 'BEST GUESS',
     tag: 'best_guess',
-    description: 'Arizona champion, Houston F4, St. John\'s Cinderella to E8, NC State to S16. RECOMMENDED.',
-    targetUpsets: 7,              // 7 validated upsets (NC State Cinderella dropped)
+    description: 'Arizona champion, Houston F4, St. John\'s Cinderella to E8, Texas upsets BYU. RECOMMENDED.',
+    targetUpsets: 7,              // 7 validated upsets (Texas replaces NC State)
     upsetThreshold: 12,
     injuryMultiplier: 1.0,
     champOverride: 'Arizona',
-    f4Override: { South: 'Houston' },
+    f4Override: {},  // MC simulation shows Florida wins South more often (18.4%) than Houston (14.6%); Houston F4 rate 42% public = not contrarian
     // Pressure-tested R64 adjustments:
     // ALL pressure-tested R64 upsets locked in:
     forcedUpsetLosers: [
       'Georgia',         // →Saint Louis (40% from 3, UGA defense 315th)
       'North Carolina',  // →VCU (Wilson OUT, 8+ expert consensus)
-      // BYU removed — NC State Cinderella dropped (First Four team too risky)
+      'BYU',             // →Texas (Saunders ACL, BYU 5-5 L10, Texas First Four momentum, BYU -1.5 spread only)
       'Kentucky',        // →Santa Clara (Lowe + Quaintance OUT, 7+ sources)
       'Texas Tech',      // →Akron (Toppin OUT, defense 31st→87th, 5+ sources)
       'Kansas',          // →Cal Baptist (Kansas 3-4 in L7, blown out by Houston; 13o4 pattern)
@@ -79,14 +80,14 @@ const STRATEGIES = {
   swing: {
     name: 'SWING',
     tag: 'swing',
-    description: 'Houston champion, St. John\'s wins East, Iowa State wins Midwest. Max diversification.',
+    description: 'Houston champion, St. John\'s wins East, Iowa State wins Midwest. Texas R32 run. Max diversification.',
     targetUpsets: 8,
     upsetThreshold: 8,
     injuryMultiplier: 1.5,
     champOverride: 'Houston',
     f4Override: { South: 'Houston', West: 'Purdue', East: "St. John's", Midwest: 'Iowa State' },
     pathOverrides: [
-      { round: 'R32', winner: 'NC State', note: 'Gonzaga missing Huff' },
+      { round: 'R32', winner: 'Texas', note: 'Texas First Four momentum + Gonzaga missing Huff; high-variance swing pick' },
       { round: 'S16', winner: "St. John's", note: 'Duke injuries' },
       { round: 'R32', winner: 'VCU', note: 'Illinois offense-only; VCU grinds' },
       { round: 'S16', winner: 'Tennessee', note: 'Tennessee SRS 22.08 > Virginia 21.60' },
@@ -134,7 +135,14 @@ function buildTeamDB(strategy) {
       teams[name].momentum = data.momentum;
       teams[name].recencyBoost = data.adjEMBoost || 0;
       teams[name].confTourneyResult = data.confTourneyResult;
+      teams[name].coachTourneyRecord = data.coachTourneyRecord || null;
     }
+  }
+
+  // Four Factors (style data)
+  const ffTeams = fourFactors.teams || {};
+  for (const [name, data] of Object.entries(ffTeams)) {
+    if (teams[name]) teams[name].fourFactors = data;
   }
 
   // Injuries — scaled by strategy
@@ -179,6 +187,7 @@ function buildTeamDB(strategy) {
     t.publicChampRate = t.publicChampRate || 0.005;
     t.publicF4Rate = t.publicF4Rate || 0.01;
     t.publicR64Rate = r64PerTeam[t.name] || 0.50;
+    t.fourFactors = t.fourFactors || {};
   }
 
   return teams;
@@ -228,6 +237,41 @@ function stdDev(vals) {
 
 function rd(v) { return v == null ? null : Math.round(v * 1000) / 1000; }
 
+// ─── Style Mismatch Modifier (Four Factors — real Sports-Reference data) ────
+// NOTE: Coefficients are kept small (max ±0.03 total) because we lack
+// regression-calibrated weights against historical tournament outcomes.
+// These are directional nudges, not primary signals.
+function getStyleMismatchModifier(t1, t2, round) {
+  const ff1 = t1.fourFactors || {}, ff2 = t2.fourFactors || {};
+  if (!ff1.tempo || !ff2.tempo) return 0;
+
+  let modifier = 0;
+
+  // Pace differential: slower team gets small edge in March (games tighten)
+  // Empirical basis: limited. Kept at ±0.01 max.
+  const paceDiff = Math.abs(ff1.tempo - ff2.tempo);
+  if (paceDiff > 5) {
+    modifier += (ff1.tempo < ff2.tempo ? 1 : -1) * 0.01;
+  }
+
+  // Turnover differential: team that turns it over more is at risk
+  // tovPct is per-100-possessions (e.g. 13.3). Scale: 1 point = ~0.003
+  const toDiff = (ff1.tovPct || 14) - (ff2.tovPct || 14);
+  modifier -= toDiff * 0.003;
+
+  // ORB% advantage: teams that crash offensive glass get extra possessions
+  // orbPct is percentage (e.g. 38.1). Scale: 1 point = ~0.001
+  const orbDiff = (ff1.orbPct || 32) - (ff2.orbPct || 32);
+  modifier += orbDiff * 0.001;
+
+  // Defensive eFG%: lower is better for t1. Scale: 0.01 diff = ~0.005 modifier
+  const defDiff = (ff2.defEFGPct || 0.49) - (ff1.defEFGPct || 0.49);
+  modifier += defDiff * 0.5;
+
+  // Clamp to ±0.03 — this is a nudge, not a primary signal
+  return Math.max(-0.03, Math.min(0.03, modifier));
+}
+
 // ─── Matchup Analysis ────────────────────────────────────────────────────────
 function analyzeMatchup(t1, t2, round, region, strategy) {
   const adj1 = t1.adjEM + (t1.recencyBoost || 0) + (t1.injuryPenalty || 0);
@@ -257,6 +301,11 @@ function analyzeMatchup(t1, t2, round, region, strategy) {
     if (sources[k] != null) { comp += sources[k] * w; tw += w; su++; }
   }
   comp = tw > 0 ? comp / tw : 0.5;
+
+  // Apply Four Factors style-mismatch modifier
+  const styleMod = getStyleMismatchModifier(t1, t2, round);
+  comp += styleMod;
+
   comp = Math.max(0.02, Math.min(0.98, comp));
 
   const contradiction = stdDev(Object.values(sources).filter(v => v != null));
@@ -369,7 +418,7 @@ function calibrateUpsets(r64, teams, strategy) {
 
 // ─── Simulate Tournament ────────────────────────────────────────────────────
 function resolveFirstFour() {
-  return { 'TBD_Midwest16': 'UMBC', 'TBD_South16': 'Lehigh', 'TBD_West11': 'NC State', 'TBD_Midwest11': 'SMU' };
+  return { 'TBD_Midwest16': 'Howard', 'TBD_South16': 'Lehigh', 'TBD_West11': 'Texas', 'TBD_Midwest11': 'SMU' };
 }
 
 function simulateBracket(teams, strategy) {

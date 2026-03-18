@@ -1,0 +1,1044 @@
+{
+  "numSims": 10000,
+  "advancementProbs": {
+    "Duke": {
+      "R64": 0.9774,
+      "R32": 0.7665,
+      "S16": 0.5439,
+      "E8": 0.3801,
+      "F4": 0.2275,
+      "Championship": 0.1305
+    },
+    "Siena": {
+      "R64": 0.0226,
+      "R32": 0.0058,
+      "S16": 0.0016,
+      "E8": 0.0002,
+      "F4": 0.0001,
+      "Championship": 0.0001
+    },
+    "Ohio State": {
+      "R64": 0.5744,
+      "R32": 0.1371,
+      "S16": 0.0541,
+      "E8": 0.0195,
+      "F4": 0.0051,
+      "Championship": 0.0012
+    },
+    "TCU": {
+      "R64": 0.4256,
+      "R32": 0.0906,
+      "S16": 0.0281,
+      "E8": 0.0101,
+      "F4": 0.0025,
+      "Championship": 0.0004
+    },
+    "St. John's": {
+      "R64": 0.7942,
+      "R32": 0.4349,
+      "S16": 0.1723,
+      "E8": 0.0861,
+      "F4": 0.0365,
+      "Championship": 0.0137
+    },
+    "Northern Iowa": {
+      "R64": 0.2058,
+      "R32": 0.0606,
+      "S16": 0.0133,
+      "E8": 0.0035,
+      "F4": 0.001,
+      "Championship": 0.0001
+    },
+    "Kansas": {
+      "R64": 0.872,
+      "R32": 0.4716,
+      "S16": 0.1793,
+      "E8": 0.0924,
+      "F4": 0.0368,
+      "Championship": 0.0136
+    },
+    "Cal Baptist": {
+      "R64": 0.128,
+      "R32": 0.0329,
+      "S16": 0.0074,
+      "E8": 0.0018,
+      "F4": 0.0001,
+      "Championship": 0
+    },
+    "Louisville": {
+      "R64": 0.6754,
+      "R32": 0.2719,
+      "S16": 0.1146,
+      "E8": 0.0393,
+      "F4": 0.0121,
+      "Championship": 0.0034
+    },
+    "South Florida": {
+      "R64": 0.3246,
+      "R32": 0.0947,
+      "S16": 0.0307,
+      "E8": 0.0074,
+      "F4": 0.0016,
+      "Championship": 0.0003
+    },
+    "Michigan State": {
+      "R64": 0.9368,
+      "R32": 0.6166,
+      "S16": 0.3317,
+      "E8": 0.1444,
+      "F4": 0.0649,
+      "Championship": 0.025
+    },
+    "North Dakota State": {
+      "R64": 0.0632,
+      "R32": 0.0168,
+      "S16": 0.0038,
+      "E8": 0.0007,
+      "F4": 0.0001,
+      "Championship": 0
+    },
+    "UCLA": {
+      "R64": 0.6552,
+      "R32": 0.2127,
+      "S16": 0.083,
+      "E8": 0.0242,
+      "F4": 0.0071,
+      "Championship": 0.0019
+    },
+    "UCF": {
+      "R64": 0.3448,
+      "R32": 0.0906,
+      "S16": 0.0283,
+      "E8": 0.0073,
+      "F4": 0.0011,
+      "Championship": 0.0005
+    },
+    "UConn": {
+      "R64": 0.9598,
+      "R32": 0.6853,
+      "S16": 0.406,
+      "E8": 0.1828,
+      "F4": 0.0835,
+      "Championship": 0.0348
+    },
+    "Furman": {
+      "R64": 0.0402,
+      "R32": 0.0114,
+      "S16": 0.0019,
+      "E8": 0.0002,
+      "F4": 0,
+      "Championship": 0
+    },
+    "Arizona": {
+      "R64": 0.9787,
+      "R32": 0.7806,
+      "S16": 0.5811,
+      "E8": 0.4059,
+      "F4": 0.2528,
+      "Championship": 0.1553
+    },
+    "LIU": {
+      "R64": 0.0213,
+      "R32": 0.0057,
+      "S16": 0.0017,
+      "E8": 0.0005,
+      "F4": 0,
+      "Championship": 0
+    },
+    "Villanova": {
+      "R64": 0.447,
+      "R32": 0.0898,
+      "S16": 0.0336,
+      "E8": 0.0111,
+      "F4": 0.0028,
+      "Championship": 0.0009
+    },
+    "Utah State": {
+      "R64": 0.553,
+      "R32": 0.1239,
+      "S16": 0.0498,
+      "E8": 0.0189,
+      "F4": 0.0054,
+      "Championship": 0.0016
+    },
+    "Wisconsin": {
+      "R64": 0.768,
+      "R32": 0.3386,
+      "S16": 0.109,
+      "E8": 0.0453,
+      "F4": 0.0155,
+      "Championship": 0.006
+    },
+    "High Point": {
+      "R64": 0.232,
+      "R32": 0.0674,
+      "S16": 0.015,
+      "E8": 0.0046,
+      "F4": 0.0006,
+      "Championship": 0
+    },
+    "Arkansas": {
+      "R64": 0.8945,
+      "R32": 0.5614,
+      "S16": 0.2035,
+      "E8": 0.1037,
+      "F4": 0.0441,
+      "Championship": 0.0154
+    },
+    "Hawaii": {
+      "R64": 0.1055,
+      "R32": 0.0326,
+      "S16": 0.0063,
+      "E8": 0.0015,
+      "F4": 0.0003,
+      "Championship": 0.0001
+    },
+    "BYU": {
+      "R64": 0.558,
+      "R32": 0.2169,
+      "S16": 0.0777,
+      "E8": 0.0237,
+      "F4": 0.0061,
+      "Championship": 0.0014
+    },
+    "Gonzaga": {
+      "R64": 0.8941,
+      "R32": 0.5965,
+      "S16": 0.2901,
+      "E8": 0.1202,
+      "F4": 0.0484,
+      "Championship": 0.0183
+    },
+    "Kennesaw State": {
+      "R64": 0.1059,
+      "R32": 0.0325,
+      "S16": 0.0059,
+      "E8": 0.0011,
+      "F4": 0,
+      "Championship": 0
+    },
+    "Miami FL": {
+      "R64": 0.5961,
+      "R32": 0.1818,
+      "S16": 0.0775,
+      "E8": 0.0246,
+      "F4": 0.0078,
+      "Championship": 0.0023
+    },
+    "Missouri": {
+      "R64": 0.4039,
+      "R32": 0.1047,
+      "S16": 0.0413,
+      "E8": 0.0117,
+      "F4": 0.0027,
+      "Championship": 0.0008
+    },
+    "Purdue": {
+      "R64": 0.9759,
+      "R32": 0.7074,
+      "S16": 0.4557,
+      "E8": 0.2126,
+      "F4": 0.1004,
+      "Championship": 0.0496
+    },
+    "Queens": {
+      "R64": 0.0241,
+      "R32": 0.0061,
+      "S16": 0.0014,
+      "E8": 0.0003,
+      "F4": 0,
+      "Championship": 0
+    },
+    "Florida": {
+      "R64": 0.9804,
+      "R32": 0.7587,
+      "S16": 0.5486,
+      "E8": 0.3138,
+      "F4": 0.1841,
+      "Championship": 0.0993
+    },
+    "Clemson": {
+      "R64": 0.4505,
+      "R32": 0.1039,
+      "S16": 0.0395,
+      "E8": 0.0114,
+      "F4": 0.003,
+      "Championship": 0.0009
+    },
+    "Iowa": {
+      "R64": 0.5495,
+      "R32": 0.1339,
+      "S16": 0.0535,
+      "E8": 0.0168,
+      "F4": 0.0065,
+      "Championship": 0.0012
+    },
+    "Vanderbilt": {
+      "R64": 0.7732,
+      "R32": 0.4376,
+      "S16": 0.1626,
+      "E8": 0.0656,
+      "F4": 0.027,
+      "Championship": 0.0087
+    },
+    "McNeese": {
+      "R64": 0.2268,
+      "R32": 0.0779,
+      "S16": 0.0181,
+      "E8": 0.0033,
+      "F4": 0.0009,
+      "Championship": 0.0001
+    },
+    "Nebraska": {
+      "R64": 0.8571,
+      "R32": 0.4482,
+      "S16": 0.1706,
+      "E8": 0.0625,
+      "F4": 0.0236,
+      "Championship": 0.0078
+    },
+    "Troy": {
+      "R64": 0.1429,
+      "R32": 0.0363,
+      "S16": 0.0061,
+      "E8": 0.0009,
+      "F4": 0.0001,
+      "Championship": 0
+    },
+    "North Carolina": {
+      "R64": 0.5676,
+      "R32": 0.1537,
+      "S16": 0.0517,
+      "E8": 0.0154,
+      "F4": 0.0049,
+      "Championship": 0.0011
+    },
+    "VCU": {
+      "R64": 0.4324,
+      "R32": 0.1067,
+      "S16": 0.0305,
+      "E8": 0.0088,
+      "F4": 0.003,
+      "Championship": 0.0007
+    },
+    "Illinois": {
+      "R64": 0.9675,
+      "R32": 0.7299,
+      "S16": 0.3817,
+      "E8": 0.2113,
+      "F4": 0.1124,
+      "Championship": 0.0556
+    },
+    "Penn": {
+      "R64": 0.0325,
+      "R32": 0.0097,
+      "S16": 0.0016,
+      "E8": 0.0006,
+      "F4": 0.0002,
+      "Championship": 0
+    },
+    "Saint Mary's": {
+      "R64": 0.6068,
+      "R32": 0.1773,
+      "S16": 0.0636,
+      "E8": 0.0214,
+      "F4": 0.0068,
+      "Championship": 0.0022
+    },
+    "Texas A&M": {
+      "R64": 0.3932,
+      "R32": 0.0908,
+      "S16": 0.0253,
+      "E8": 0.0082,
+      "F4": 0.0014,
+      "Championship": 0.0002
+    },
+    "Houston": {
+      "R64": 0.9757,
+      "R32": 0.7253,
+      "S16": 0.4439,
+      "E8": 0.2595,
+      "F4": 0.146,
+      "Championship": 0.0757
+    },
+    "Idaho": {
+      "R64": 0.0243,
+      "R32": 0.0066,
+      "S16": 0.0017,
+      "E8": 0.0003,
+      "F4": 0,
+      "Championship": 0
+    },
+    "Michigan": {
+      "R64": 0.9762,
+      "R32": 0.765,
+      "S16": 0.5811,
+      "E8": 0.3978,
+      "F4": 0.2524,
+      "Championship": 0.157
+    },
+    "Georgia": {
+      "R64": 0.5247,
+      "R32": 0.12,
+      "S16": 0.0565,
+      "E8": 0.0194,
+      "F4": 0.006,
+      "Championship": 0.0018
+    },
+    "Saint Louis": {
+      "R64": 0.4753,
+      "R32": 0.1091,
+      "S16": 0.0492,
+      "E8": 0.0164,
+      "F4": 0.0054,
+      "Championship": 0.0012
+    },
+    "Texas Tech": {
+      "R64": 0.6957,
+      "R32": 0.3328,
+      "S16": 0.097,
+      "E8": 0.0339,
+      "F4": 0.0116,
+      "Championship": 0.0034
+    },
+    "Akron": {
+      "R64": 0.3043,
+      "R32": 0.0943,
+      "S16": 0.0217,
+      "E8": 0.0041,
+      "F4": 0.0011,
+      "Championship": 0.0001
+    },
+    "Alabama": {
+      "R64": 0.8044,
+      "R32": 0.5013,
+      "S16": 0.176,
+      "E8": 0.0732,
+      "F4": 0.0285,
+      "Championship": 0.0095
+    },
+    "Hofstra": {
+      "R64": 0.1956,
+      "R32": 0.0716,
+      "S16": 0.0174,
+      "E8": 0.0054,
+      "F4": 0.0018,
+      "Championship": 0.0005
+    },
+    "Tennessee": {
+      "R64": 0.6739,
+      "R32": 0.3139,
+      "S16": 0.1372,
+      "E8": 0.0555,
+      "F4": 0.0209,
+      "Championship": 0.0087
+    },
+    "Virginia": {
+      "R64": 0.9544,
+      "R32": 0.5799,
+      "S16": 0.2795,
+      "E8": 0.1231,
+      "F4": 0.0524,
+      "Championship": 0.0225
+    },
+    "Wright State": {
+      "R64": 0.0456,
+      "R32": 0.0106,
+      "S16": 0.0025,
+      "E8": 0.0005,
+      "F4": 0,
+      "Championship": 0
+    },
+    "Kentucky": {
+      "R64": 0.5698,
+      "R32": 0.1727,
+      "S16": 0.0684,
+      "E8": 0.0238,
+      "F4": 0.0078,
+      "Championship": 0.0027
+    },
+    "Santa Clara": {
+      "R64": 0.4302,
+      "R32": 0.1133,
+      "S16": 0.0363,
+      "E8": 0.0111,
+      "F4": 0.0032,
+      "Championship": 0.0011
+    },
+    "Iowa State": {
+      "R64": 0.9586,
+      "R32": 0.7026,
+      "S16": 0.444,
+      "E8": 0.225,
+      "F4": 0.1158,
+      "Championship": 0.0589
+    },
+    "Tennessee State": {
+      "R64": 0.0414,
+      "R32": 0.0114,
+      "S16": 0.002,
+      "E8": 0.0001,
+      "F4": 0,
+      "Championship": 0
+    },
+    "UMBC": {
+      "R64": 0,
+      "R32": 0,
+      "S16": 0,
+      "E8": 0,
+      "F4": 0,
+      "Championship": 0
+    },
+    "Howard": {
+      "R64": 0.0238,
+      "R32": 0.0059,
+      "S16": 0.0011,
+      "E8": 0.0002,
+      "F4": 0.0001,
+      "Championship": 0
+    },
+    "Lehigh": {
+      "R64": 0.0196,
+      "R32": 0.0035,
+      "S16": 0.001,
+      "E8": 0.0002,
+      "F4": 0.0001,
+      "Championship": 0
+    },
+    "Prairie View A&M": {
+      "R64": 0,
+      "R32": 0,
+      "S16": 0,
+      "E8": 0,
+      "F4": 0,
+      "Championship": 0
+    },
+    "Texas": {
+      "R64": 0.442,
+      "R32": 0.1541,
+      "S16": 0.0504,
+      "E8": 0.0143,
+      "F4": 0.003,
+      "Championship": 0.0009
+    },
+    "NC State": {
+      "R64": 0,
+      "R32": 0,
+      "S16": 0,
+      "E8": 0,
+      "F4": 0,
+      "Championship": 0
+    },
+    "Miami OH": {
+      "R64": 0,
+      "R32": 0,
+      "S16": 0,
+      "E8": 0,
+      "F4": 0,
+      "Championship": 0
+    },
+    "SMU": {
+      "R64": 0.3261,
+      "R32": 0.0956,
+      "S16": 0.0301,
+      "E8": 0.0105,
+      "F4": 0.0031,
+      "Championship": 0.001
+    }
+  },
+  "championProbs": {
+    "Duke": 0.1305,
+    "Siena": 0.0001,
+    "Ohio State": 0.0012,
+    "TCU": 0.0004,
+    "St. John's": 0.0137,
+    "Northern Iowa": 0.0001,
+    "Kansas": 0.0136,
+    "Louisville": 0.0034,
+    "South Florida": 0.0003,
+    "Michigan State": 0.025,
+    "UCLA": 0.0019,
+    "UCF": 0.0005,
+    "UConn": 0.0348,
+    "Arizona": 0.1553,
+    "Villanova": 0.0009,
+    "Utah State": 0.0016,
+    "Wisconsin": 0.006,
+    "Arkansas": 0.0154,
+    "Hawaii": 0.0001,
+    "BYU": 0.0014,
+    "Gonzaga": 0.0183,
+    "Miami FL": 0.0023,
+    "Missouri": 0.0008,
+    "Purdue": 0.0496,
+    "Florida": 0.0993,
+    "Clemson": 0.0009,
+    "Iowa": 0.0012,
+    "Vanderbilt": 0.0087,
+    "McNeese": 0.0001,
+    "Nebraska": 0.0078,
+    "North Carolina": 0.0011,
+    "VCU": 0.0007,
+    "Illinois": 0.0556,
+    "Saint Mary's": 0.0022,
+    "Texas A&M": 0.0002,
+    "Houston": 0.0757,
+    "Michigan": 0.157,
+    "Georgia": 0.0018,
+    "Saint Louis": 0.0012,
+    "Texas Tech": 0.0034,
+    "Akron": 0.0001,
+    "Alabama": 0.0095,
+    "Hofstra": 0.0005,
+    "Tennessee": 0.0087,
+    "Virginia": 0.0225,
+    "Kentucky": 0.0027,
+    "Santa Clara": 0.0011,
+    "Iowa State": 0.0589,
+    "Texas": 0.0009,
+    "SMU": 0.001
+  },
+  "optimalPicks": [
+    {
+      "round": "R64",
+      "region": "East",
+      "pick": "Duke",
+      "advProb": 0.9774,
+      "ev": 0.9774
+    },
+    {
+      "round": "R64",
+      "region": "East",
+      "pick": "Ohio State",
+      "advProb": 0.5744,
+      "ev": 0.5744
+    },
+    {
+      "round": "R64",
+      "region": "East",
+      "pick": "St. John's",
+      "advProb": 0.7942,
+      "ev": 0.7942
+    },
+    {
+      "round": "R64",
+      "region": "East",
+      "pick": "Kansas",
+      "advProb": 0.872,
+      "ev": 0.872
+    },
+    {
+      "round": "R64",
+      "region": "East",
+      "pick": "Louisville",
+      "advProb": 0.6754,
+      "ev": 0.6754
+    },
+    {
+      "round": "R64",
+      "region": "East",
+      "pick": "Michigan State",
+      "advProb": 0.9368,
+      "ev": 0.9368
+    },
+    {
+      "round": "R64",
+      "region": "East",
+      "pick": "UCLA",
+      "advProb": 0.6552,
+      "ev": 0.6552
+    },
+    {
+      "round": "R64",
+      "region": "East",
+      "pick": "UConn",
+      "advProb": 0.9598,
+      "ev": 0.9598
+    },
+    {
+      "round": "R32",
+      "region": "East",
+      "pick": "Duke",
+      "advProb": 0.7665,
+      "ev": 1.533
+    },
+    {
+      "round": "R32",
+      "region": "East",
+      "pick": "Kansas",
+      "advProb": 0.4716,
+      "ev": 0.9432
+    },
+    {
+      "round": "R32",
+      "region": "East",
+      "pick": "Michigan State",
+      "advProb": 0.6166,
+      "ev": 1.2332
+    },
+    {
+      "round": "R32",
+      "region": "East",
+      "pick": "UConn",
+      "advProb": 0.6853,
+      "ev": 1.3706
+    },
+    {
+      "round": "S16",
+      "region": "East",
+      "pick": "Duke",
+      "advProb": 0.5439,
+      "ev": 2.7714649681528667
+    },
+    {
+      "round": "S16",
+      "region": "East",
+      "pick": "UConn",
+      "advProb": 0.406,
+      "ev": 2.96892138939671
+    },
+    {
+      "round": "E8",
+      "region": "East",
+      "pick": "Duke",
+      "advProb": 0.3801,
+      "ev": 4.455384615384617
+    },
+    {
+      "round": "R64",
+      "region": "West",
+      "pick": "Arizona",
+      "advProb": 0.9787,
+      "ev": 0.9787
+    },
+    {
+      "round": "R64",
+      "region": "West",
+      "pick": "Utah State",
+      "advProb": 0.553,
+      "ev": 0.553
+    },
+    {
+      "round": "R64",
+      "region": "West",
+      "pick": "Wisconsin",
+      "advProb": 0.768,
+      "ev": 0.768
+    },
+    {
+      "round": "R64",
+      "region": "West",
+      "pick": "Arkansas",
+      "advProb": 0.8945,
+      "ev": 0.8945
+    },
+    {
+      "round": "R64",
+      "region": "West",
+      "pick": "BYU",
+      "advProb": 0.558,
+      "ev": 0.558
+    },
+    {
+      "round": "R64",
+      "region": "West",
+      "pick": "Gonzaga",
+      "advProb": 0.8941,
+      "ev": 0.8941
+    },
+    {
+      "round": "R64",
+      "region": "West",
+      "pick": "Miami FL",
+      "advProb": 0.5961,
+      "ev": 0.5961
+    },
+    {
+      "round": "R64",
+      "region": "West",
+      "pick": "Purdue",
+      "advProb": 0.9759,
+      "ev": 0.9759
+    },
+    {
+      "round": "R32",
+      "region": "West",
+      "pick": "Arizona",
+      "advProb": 0.7806,
+      "ev": 1.5612
+    },
+    {
+      "round": "R32",
+      "region": "West",
+      "pick": "Arkansas",
+      "advProb": 0.5614,
+      "ev": 1.1228
+    },
+    {
+      "round": "R32",
+      "region": "West",
+      "pick": "Gonzaga",
+      "advProb": 0.5965,
+      "ev": 1.193
+    },
+    {
+      "round": "R32",
+      "region": "West",
+      "pick": "Purdue",
+      "advProb": 0.7074,
+      "ev": 1.4148
+    },
+    {
+      "round": "S16",
+      "region": "West",
+      "pick": "Arizona",
+      "advProb": 0.5811,
+      "ev": 2.961019108280255
+    },
+    {
+      "round": "S16",
+      "region": "West",
+      "pick": "Purdue",
+      "advProb": 0.4557,
+      "ev": 3.175609756097561
+    },
+    {
+      "round": "E8",
+      "region": "West",
+      "pick": "Arizona",
+      "advProb": 0.4059,
+      "ev": 4.7578021978021985
+    },
+    {
+      "round": "R64",
+      "region": "South",
+      "pick": "Florida",
+      "advProb": 0.9804,
+      "ev": 0.9804
+    },
+    {
+      "round": "R64",
+      "region": "South",
+      "pick": "Iowa",
+      "advProb": 0.5495,
+      "ev": 0.5495
+    },
+    {
+      "round": "R64",
+      "region": "South",
+      "pick": "Vanderbilt",
+      "advProb": 0.7732,
+      "ev": 0.7732
+    },
+    {
+      "round": "R64",
+      "region": "South",
+      "pick": "Nebraska",
+      "advProb": 0.8571,
+      "ev": 0.8571
+    },
+    {
+      "round": "R64",
+      "region": "South",
+      "pick": "North Carolina",
+      "advProb": 0.5676,
+      "ev": 0.5676
+    },
+    {
+      "round": "R64",
+      "region": "South",
+      "pick": "Illinois",
+      "advProb": 0.9675,
+      "ev": 0.9675
+    },
+    {
+      "round": "R64",
+      "region": "South",
+      "pick": "Saint Mary's",
+      "advProb": 0.6068,
+      "ev": 0.6068
+    },
+    {
+      "round": "R64",
+      "region": "South",
+      "pick": "Houston",
+      "advProb": 0.9757,
+      "ev": 0.9757
+    },
+    {
+      "round": "R32",
+      "region": "South",
+      "pick": "Florida",
+      "advProb": 0.7587,
+      "ev": 1.5174
+    },
+    {
+      "round": "R32",
+      "region": "South",
+      "pick": "Nebraska",
+      "advProb": 0.4482,
+      "ev": 0.8964
+    },
+    {
+      "round": "R32",
+      "region": "South",
+      "pick": "Illinois",
+      "advProb": 0.7299,
+      "ev": 1.4598
+    },
+    {
+      "round": "R32",
+      "region": "South",
+      "pick": "Houston",
+      "advProb": 0.7253,
+      "ev": 1.4506
+    },
+    {
+      "round": "S16",
+      "region": "South",
+      "pick": "Florida",
+      "advProb": 0.5486,
+      "ev": 3.3864197530864195
+    },
+    {
+      "round": "S16",
+      "region": "South",
+      "pick": "Illinois",
+      "advProb": 0.3817,
+      "ev": 2.6715660542432196
+    },
+    {
+      "round": "E8",
+      "region": "South",
+      "pick": "Florida",
+      "advProb": 0.3138,
+      "ev": 5.29620253164557
+    },
+    {
+      "round": "R64",
+      "region": "Midwest",
+      "pick": "Michigan",
+      "advProb": 0.9762,
+      "ev": 0.9762
+    },
+    {
+      "round": "R64",
+      "region": "Midwest",
+      "pick": "Georgia",
+      "advProb": 0.5247,
+      "ev": 0.5247
+    },
+    {
+      "round": "R64",
+      "region": "Midwest",
+      "pick": "Texas Tech",
+      "advProb": 0.6957,
+      "ev": 0.6957
+    },
+    {
+      "round": "R64",
+      "region": "Midwest",
+      "pick": "Alabama",
+      "advProb": 0.8044,
+      "ev": 0.8044
+    },
+    {
+      "round": "R64",
+      "region": "Midwest",
+      "pick": "Tennessee",
+      "advProb": 0.6739,
+      "ev": 0.6739
+    },
+    {
+      "round": "R64",
+      "region": "Midwest",
+      "pick": "Virginia",
+      "advProb": 0.9544,
+      "ev": 0.9544
+    },
+    {
+      "round": "R64",
+      "region": "Midwest",
+      "pick": "Kentucky",
+      "advProb": 0.5698,
+      "ev": 0.5698
+    },
+    {
+      "round": "R64",
+      "region": "Midwest",
+      "pick": "Iowa State",
+      "advProb": 0.9586,
+      "ev": 0.9586
+    },
+    {
+      "round": "R32",
+      "region": "Midwest",
+      "pick": "Michigan",
+      "advProb": 0.765,
+      "ev": 1.53
+    },
+    {
+      "round": "R32",
+      "region": "Midwest",
+      "pick": "Alabama",
+      "advProb": 0.5013,
+      "ev": 1.0026
+    },
+    {
+      "round": "R32",
+      "region": "Midwest",
+      "pick": "Virginia",
+      "advProb": 0.5799,
+      "ev": 1.1598
+    },
+    {
+      "round": "R32",
+      "region": "Midwest",
+      "pick": "Iowa State",
+      "advProb": 0.7026,
+      "ev": 1.4052
+    },
+    {
+      "round": "S16",
+      "region": "Midwest",
+      "pick": "Michigan",
+      "advProb": 0.5811,
+      "ev": 3.1775803144224195
+    },
+    {
+      "round": "S16",
+      "region": "Midwest",
+      "pick": "Iowa State",
+      "advProb": 0.444,
+      "ev": 2.7880690737833596
+    },
+    {
+      "round": "E8",
+      "region": "Midwest",
+      "pick": "Michigan",
+      "advProb": 0.3978,
+      "ev": 5.297378277153558
+    },
+    {
+      "round": "F4",
+      "region": "West vs Midwest",
+      "pick": "Michigan",
+      "advProb": 0.2524,
+      "ev": 8.592340425531916
+    },
+    {
+      "round": "F4",
+      "region": "East vs South",
+      "pick": "Florida",
+      "advProb": 0.1841,
+      "ev": 9.818666666666667
+    },
+    {
+      "round": "Championship",
+      "region": "Championship",
+      "pick": "Florida",
+      "advProb": 0.0993,
+      "ev": 44.13333333333333
+    }
+  ]
+}
