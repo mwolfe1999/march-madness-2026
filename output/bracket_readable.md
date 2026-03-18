@@ -10,7 +10,7 @@
 
 # 2026 March Madness — BEST GUESS Bracket
 
-**Strategy:** Arizona champion, Houston F4, St. John's Cinderella to E8, Texas upsets BYU. RECOMMENDED.
+**Strategy:** Arizona champion, Florida F4, St. John's E8 + Santa Clara S16 Cinderellas. RECOMMENDED.
 **Confidence:** HIGH — pressure-tested game by game, best risk/reward for $1M bracket
 **Generated:** 2026-03-18
 **Pool:** Medium-to-large (50-200 entries) | Scoring: 1-2-4-8-16-32
@@ -81,15 +81,15 @@ Win Prob: 56% | Public: 25.0% | Pool Value: 30.8
 ### Sweet 16
 
 (1) Duke vs. (5) St. John's
-→ **St. John's** **UPSET** | 42% | 78% pub | -9% gap | UPSET, CINDERELLA — Duke missing Foster+Evans+Ngongba; SJU 16-1 in L17, Pitino 7 Final Fours. Bruce Pearl picked exactly this., efficiency edge, expert consensus
+→ **St. John's** **UPSET** | 42% | 78% pub | -11% gap | UPSET, CINDERELLA — Duke missing Foster+Evans+Ngongba; SJU 16-1 in L17, Pitino 7 Final Fours. Bruce Pearl picked exactly this., efficiency edge, expert consensus, -11% overexposed
 
 (3) Michigan State vs. (2) UConn
-→ **UConn** | 52% | 52% pub | -4% gap | composite
+→ **UConn** | 51% | 52% pub | -3% gap | composite
 
 ### Elite 8
 
 (5) St. John's vs. (2) UConn
-→ **UConn** | 55% | 25% pub | +20% gap | +20% value
+→ **UConn** | 54% | 25% pub | +21% gap | +21% value
 
 ---
 
@@ -138,7 +138,7 @@ Win Prob: 56% | Public: 25.0% | Pool Value: 30.8
 ### Sweet 16
 
 (1) Arizona vs. (4) Arkansas
-→ **Arizona** | 72% | 78% pub | -6% gap | efficiency edge, expert consensus
+→ **Arizona** | 71% | 78% pub | -7% gap | efficiency edge, expert consensus
 
 (3) Gonzaga vs. (2) Purdue
 → **Purdue** | 59% | 55% pub | -14% gap | eff favors opp, source disagreement, -14% overexposed
@@ -170,10 +170,10 @@ Win Prob: 56% | Public: 25.0% | Pool Value: 30.8
 → **VCU** **UPSET** (calibrated) | 43% | 62% pub | -4% gap | UPSET, calibrated
 
 (3) Illinois vs. (14) Penn
-→ **Illinois** | 96% | 97% pub | -1% gap | efficiency edge, Vegas fav, expert consensus
+→ **Illinois** | 97% | 97% pub | -1% gap | efficiency edge, Vegas fav, expert consensus
 
 (7) Saint Mary's vs. (10) Texas A&M
-→ **Saint Mary's** | 61% | 53% pub | +7% gap | composite
+→ **Saint Mary's** | 61% | 53% pub | +8% gap | composite
 
 (2) Houston vs. (15) Idaho
 → **Houston** | 98% | 98% pub | -1% gap | efficiency edge, Vegas fav, expert consensus
@@ -181,7 +181,7 @@ Win Prob: 56% | Public: 25.0% | Pool Value: 30.8
 ### Round of 32
 
 (1) Florida vs. (9) Iowa
-→ **Florida** | 76% | 82% pub | -6% gap | efficiency edge, expert consensus
+→ **Florida** | 77% | 82% pub | -6% gap | efficiency edge, expert consensus
 
 (5) Vanderbilt vs. (4) Nebraska
 → **Vanderbilt** **UPSET** | 53% | 62% pub | -9% gap | UPSET
@@ -247,20 +247,20 @@ Win Prob: 56% | Public: 25.0% | Pool Value: 30.8
 → **Tennessee** **UPSET** | 45% | 60% pub | -15% gap | UPSET, CINDERELLA — Tennessee SRS 22.08 > Virginia 21.60; Bilas picks Vols; physical + offensive rebounding edge, source disagreement, -15% overexposed
 
 (10) Santa Clara vs. (2) Iowa State
-→ **Iowa State** | 76% | 21% pub | +3% gap | eff favors opp, Vegas dog
+→ **Santa Clara** **UPSET** | 45% | 21% pub | +3% gap | UPSET, CINDERELLA — Santa Clara TOV% 13.0 neutralizes Iowa State 19.8% forced TO rate; without turnovers ISU def eFG .495 is average. 10-seed Cinderella to S16., eff favors opp, Vegas dog
 
 ### Sweet 16
 
 (1) Michigan vs. (4) Alabama
-→ **Michigan** | 73% | 73% pub | +0% gap | efficiency edge, expert consensus
+→ **Michigan** | 72% | 73% pub | -1% gap | efficiency edge, expert consensus
 
-(6) Tennessee vs. (2) Iowa State
-→ **Iowa State** | 64% | 42% pub | -6% gap | eff favors opp
+(6) Tennessee vs. (10) Santa Clara
+→ **Tennessee** | 67% | 42% pub | +25% gap | efficiency edge, +25% value
 
 ### Elite 8
 
-(1) Michigan vs. (2) Iowa State
-→ **Michigan** | 64% | 60% pub | +4% gap | expert consensus
+(1) Michigan vs. (6) Tennessee
+→ **Michigan** | 72% | 60% pub | +12% gap | efficiency edge, expert consensus, +12% value
 
 ---
 
@@ -358,15 +358,15 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Sweet 16
 
 (1) Duke vs. (5) St. John's
-→ **Duke** | 71% | 78% pub | -8% gap | efficiency edge, expert consensus
+→ **Duke** | 69% | 78% pub | -10% gap | efficiency edge, expert consensus
 
 (3) Michigan State vs. (2) UConn
-→ **UConn** | 53% | 52% pub | -5% gap | composite
+→ **UConn** | 52% | 52% pub | -4% gap | composite
 
 ### Elite 8
 
 (1) Duke vs. (2) UConn
-→ **Duke** | 68% | 68% pub | -1% gap | efficiency edge, expert consensus
+→ **Duke** | 67% | 68% pub | -2% gap | efficiency edge, expert consensus
 
 ---
 
@@ -415,7 +415,7 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Sweet 16
 
 (1) Arizona vs. (4) Arkansas
-→ **Arizona** | 72% | 78% pub | -7% gap | efficiency edge, expert consensus
+→ **Arizona** | 71% | 78% pub | -8% gap | efficiency edge, expert consensus
 
 (3) Gonzaga vs. (2) Purdue
 → **Purdue** | 57% | 55% pub | -13% gap | source disagreement, -13% overexposed
@@ -447,7 +447,7 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 → **North Carolina** | 59% | 62% pub | -2% gap | composite
 
 (3) Illinois vs. (14) Penn
-→ **Illinois** | 96% | 97% pub | -1% gap | efficiency edge, Vegas fav, expert consensus
+→ **Illinois** | 97% | 97% pub | -1% gap | efficiency edge, Vegas fav, expert consensus
 
 (7) Saint Mary's vs. (10) Texas A&M
 → **Saint Mary's** | 60% | 53% pub | +7% gap | composite
@@ -458,7 +458,7 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Round of 32
 
 (1) Florida vs. (9) Iowa
-→ **Florida** | 76% | 82% pub | -6% gap | efficiency edge, expert consensus
+→ **Florida** | 77% | 82% pub | -6% gap | efficiency edge, expert consensus
 
 (5) Vanderbilt vs. (4) Nebraska
 → **Vanderbilt** **UPSET** | 47% | 62% pub | -9% gap | UPSET, CINDERELLA — Vanderbilt SRS 22.83 > Nebraska 21.54; beat Florida in SEC semis
@@ -529,7 +529,7 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Sweet 16
 
 (1) Michigan vs. (4) Alabama
-→ **Michigan** | 74% | 73% pub | +1% gap | efficiency edge, expert consensus
+→ **Michigan** | 73% | 73% pub | -0% gap | efficiency edge, expert consensus
 
 (3) Virginia vs. (2) Iowa State
 → **Iowa State** | 60% | 50% pub | -10% gap | eff favors opp
@@ -537,17 +537,17 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Elite 8
 
 (1) Michigan vs. (2) Iowa State
-→ **Michigan** | 65% | 60% pub | +4% gap | expert consensus
+→ **Michigan** | 64% | 60% pub | +3% gap | expert consensus
 
 ---
 
 ## FINAL FOUR
 
 (1) Arizona vs. (1) Michigan
-→ **Michigan** | 51% | composite
+→ **Michigan** | 50% | composite
 
 (1) Duke vs. (1) Florida
-→ **Duke** | 57% | pool-value pick, expert consensus
+→ **Duke** | 56% | pool-value pick, expert consensus
 
 ## CHAMPIONSHIP
 
@@ -639,15 +639,15 @@ Win Prob: 54% | Public: 7.0% | Pool Value: 24.3
 ### Sweet 16
 
 (1) Duke vs. (5) St. John's
-→ **St. John's** **UPSET** | 52% | 78% pub | -11% gap | UPSET, CINDERELLA — Duke injuries, pool-value pick, efficiency edge, expert consensus, -11% overexposed
+→ **St. John's** **UPSET** | 52% | 78% pub | -13% gap | UPSET, CINDERELLA — Duke injuries, pool-value pick, efficiency edge, expert consensus, -13% overexposed
 
 (3) Michigan State vs. (2) UConn
-→ **UConn** | 51% | 52% pub | -3% gap | composite
+→ **UConn** | 50% | 52% pub | -2% gap | composite
 
 ### Elite 8
 
 (5) St. John's vs. (2) UConn
-→ **St. John's** | 53% | 25% pub | +21% gap | pool-value pick, +21% value
+→ **St. John's** | 52% | 25% pub | +22% gap | pool-value pick, +22% value
 
 ---
 
@@ -696,7 +696,7 @@ Win Prob: 54% | Public: 7.0% | Pool Value: 24.3
 ### Sweet 16
 
 (1) Arizona vs. (4) Arkansas
-→ **Arizona** | 71% | 78% pub | -8% gap | efficiency edge, expert consensus
+→ **Arizona** | 70% | 78% pub | -9% gap | efficiency edge, expert consensus
 
 (11) Texas vs. (2) Purdue
 → **Purdue** | 71% | 10% pub | +19% gap | pool-value pick, eff favors opp, +19% value
@@ -728,10 +728,10 @@ Win Prob: 54% | Public: 7.0% | Pool Value: 24.3
 → **VCU** **UPSET** (calibrated) | 45% | 62% pub | -7% gap | UPSET, calibrated
 
 (3) Illinois vs. (14) Penn
-→ **Illinois** | 95% | 97% pub | -2% gap | efficiency edge, Vegas fav, expert consensus
+→ **Illinois** | 96% | 97% pub | -1% gap | efficiency edge, Vegas fav, expert consensus
 
 (7) Saint Mary's vs. (10) Texas A&M
-→ **Saint Mary's** | 61% | 53% pub | +8% gap | composite
+→ **Saint Mary's** | 62% | 53% pub | +9% gap | composite
 
 (2) Houston vs. (15) Idaho
 → **Houston** | 97% | 98% pub | -2% gap | efficiency edge, Vegas fav, expert consensus
@@ -810,7 +810,7 @@ Win Prob: 54% | Public: 7.0% | Pool Value: 24.3
 ### Sweet 16
 
 (1) Michigan vs. (4) Alabama
-→ **Michigan** | 71% | 73% pub | -2% gap | efficiency edge, expert consensus, source disagreement
+→ **Michigan** | 70% | 73% pub | -3% gap | efficiency edge, expert consensus, source disagreement
 
 (3) Virginia vs. (2) Iowa State
 → **Iowa State** | 59% | 50% pub | -8% gap | pool-value pick, eff favors opp
@@ -818,7 +818,7 @@ Win Prob: 54% | Public: 7.0% | Pool Value: 24.3
 ### Elite 8
 
 (1) Michigan vs. (2) Iowa State
-→ **Iowa State** | 62% | 60% pub | +2% gap | pool-value pick, expert consensus
+→ **Iowa State** | 61% | 60% pub | +1% gap | pool-value pick, expert consensus
 
 ---
 
@@ -828,7 +828,7 @@ Win Prob: 54% | Public: 7.0% | Pool Value: 24.3
 → **Iowa State** | 54% | +29% value
 
 (5) St. John's vs. (2) Houston
-→ **Houston** | 63% | pool-value pick, +31% value
+→ **Houston** | 62% | pool-value pick, +32% value
 
 ## CHAMPIONSHIP
 

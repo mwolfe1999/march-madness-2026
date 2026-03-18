@@ -33,8 +33,8 @@ const STRATEGIES = {
   bestGuess: {
     name: 'BEST GUESS',
     tag: 'best_guess',
-    description: 'Arizona champion, Houston F4, St. John\'s Cinderella to E8, Texas upsets BYU. RECOMMENDED.',
-    targetUpsets: 7,              // 7 validated upsets (Texas replaces NC State)
+    description: 'Arizona champion, Florida F4, St. John\'s E8 + Santa Clara S16 Cinderellas. RECOMMENDED.',
+    targetUpsets: 7,              // 7 validated upsets
     upsetThreshold: 12,
     injuryMultiplier: 1.0,
     champOverride: 'Arizona',
@@ -52,9 +52,8 @@ const STRATEGIES = {
     protectedWinners: ['Louisville', 'UCLA'],  // Don't upset Louisville (Brown returning) or UCLA (both stars healthy, -5.5)
     pathOverrides: [
       { round: 'S16', winner: "St. John's", note: 'Duke missing Foster+Evans+Ngongba; SJU 16-1 in L17, Pitino 7 Final Fours. Bruce Pearl picked exactly this.' },
-      // NC State Cinderella DROPPED — too risky for a First Four team (20-13) needing 3 wins to reach S16
-      // Gonzaga advances even without Huff; their SRS 25.11 is still elite
       { round: 'R32', winner: 'Tennessee', note: 'Tennessee SRS 22.08 > Virginia 21.60; Bilas picks Vols; physical + offensive rebounding edge' },
+      { round: 'R32', winner: 'Santa Clara', note: 'Santa Clara TOV% 13.0 neutralizes Iowa State 19.8% forced TO rate; without turnovers ISU def eFG .495 is average. 10-seed Cinderella to S16.' },
     ],
     vegasWeight: 0.42,
     marketDampen: 0.4,
@@ -268,8 +267,18 @@ function getStyleMismatchModifier(t1, t2, round) {
   const defDiff = (ff2.defEFGPct || 0.49) - (ff1.defEFGPct || 0.49);
   modifier += defDiff * 0.5;
 
-  // Clamp to ±0.03 — this is a nudge, not a primary signal
-  return Math.max(-0.03, Math.min(0.03, modifier));
+  // Coach experience (S16+ only, ±0.01) — empirically unproven but directionally plausible
+  const roundIdx = ROUND_ORDER.indexOf(round);
+  if (roundIdx >= 2) {
+    const c1 = t1.coachTourneyRecord, c2 = t2.coachTourneyRecord;
+    if (c1 && c1.finalFours >= 3) modifier += 0.01;
+    if (c2 && c2.finalFours >= 3) modifier -= 0.01;
+    if (c1 && c1.finalFours === 0 && (c1.tourneyApps || 0) <= 2) modifier -= 0.01;
+    if (c2 && c2.finalFours === 0 && (c2.tourneyApps || 0) <= 2) modifier += 0.01;
+  }
+
+  // Clamp to ±0.04 — this is a nudge, not a primary signal
+  return Math.max(-0.04, Math.min(0.04, modifier));
 }
 
 // ─── Matchup Analysis ────────────────────────────────────────────────────────

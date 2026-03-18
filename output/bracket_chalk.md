@@ -68,15 +68,15 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Sweet 16
 
 (1) Duke vs. (5) St. John's
-→ **Duke** | 71% | 78% pub | -8% gap | efficiency edge, expert consensus
+→ **Duke** | 69% | 78% pub | -10% gap | efficiency edge, expert consensus
 
 (3) Michigan State vs. (2) UConn
-→ **UConn** | 53% | 52% pub | -5% gap | composite
+→ **UConn** | 52% | 52% pub | -4% gap | composite
 
 ### Elite 8
 
 (1) Duke vs. (2) UConn
-→ **Duke** | 68% | 68% pub | -1% gap | efficiency edge, expert consensus
+→ **Duke** | 67% | 68% pub | -2% gap | efficiency edge, expert consensus
 
 ---
 
@@ -125,7 +125,7 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Sweet 16
 
 (1) Arizona vs. (4) Arkansas
-→ **Arizona** | 72% | 78% pub | -7% gap | efficiency edge, expert consensus
+→ **Arizona** | 71% | 78% pub | -8% gap | efficiency edge, expert consensus
 
 (3) Gonzaga vs. (2) Purdue
 → **Purdue** | 57% | 55% pub | -13% gap | source disagreement, -13% overexposed
@@ -157,7 +157,7 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 → **North Carolina** | 59% | 62% pub | -2% gap | composite
 
 (3) Illinois vs. (14) Penn
-→ **Illinois** | 96% | 97% pub | -1% gap | efficiency edge, Vegas fav, expert consensus
+→ **Illinois** | 97% | 97% pub | -1% gap | efficiency edge, Vegas fav, expert consensus
 
 (7) Saint Mary's vs. (10) Texas A&M
 → **Saint Mary's** | 60% | 53% pub | +7% gap | composite
@@ -168,7 +168,7 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Round of 32
 
 (1) Florida vs. (9) Iowa
-→ **Florida** | 76% | 82% pub | -6% gap | efficiency edge, expert consensus
+→ **Florida** | 77% | 82% pub | -6% gap | efficiency edge, expert consensus
 
 (5) Vanderbilt vs. (4) Nebraska
 → **Vanderbilt** **UPSET** | 47% | 62% pub | -9% gap | UPSET, CINDERELLA — Vanderbilt SRS 22.83 > Nebraska 21.54; beat Florida in SEC semis
@@ -239,7 +239,7 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Sweet 16
 
 (1) Michigan vs. (4) Alabama
-→ **Michigan** | 74% | 73% pub | +1% gap | efficiency edge, expert consensus
+→ **Michigan** | 73% | 73% pub | -0% gap | efficiency edge, expert consensus
 
 (3) Virginia vs. (2) Iowa State
 → **Iowa State** | 60% | 50% pub | -10% gap | eff favors opp
@@ -247,17 +247,17 @@ Win Prob: 51% | Public: 18.5% | Pool Value: 34.5
 ### Elite 8
 
 (1) Michigan vs. (2) Iowa State
-→ **Michigan** | 65% | 60% pub | +4% gap | expert consensus
+→ **Michigan** | 64% | 60% pub | +3% gap | expert consensus
 
 ---
 
 ## FINAL FOUR
 
 (1) Arizona vs. (1) Michigan
-→ **Michigan** | 51% | composite
+→ **Michigan** | 50% | composite
 
 (1) Duke vs. (1) Florida
-→ **Duke** | 57% | pool-value pick, expert consensus
+→ **Duke** | 56% | pool-value pick, expert consensus
 
 ## CHAMPIONSHIP
 
